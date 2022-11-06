@@ -33,6 +33,33 @@ var (
 	sample = flag.Int("sample", 1000, "Dump output into file every N queries")
 )
 
+type Stats struct {
+	sync.Mutex
+	histDur *z.HistogramData
+	histSz  *z.HistogramData
+}
+
+func InitStats() *Stats {
+	bounds := z.HistogramBounds(0, 4)
+	last := float64(16)
+	for i := 0; i < 2048; i++ {
+		bounds = append(bounds, last)
+		last += 16.0
+	}
+	// fmt.Printf("Bounds are: %+v\n", bounds)
+	st := &Stats{}
+	st.histDur = z.NewHistogramData(bounds)
+	st.histSz = z.NewHistogramData(z.HistogramBounds(0, 20))
+	return st
+}
+
+func (st *Stats) Update(dur, sz int64) {
+	st.Lock()
+	st.histDur.Update(dur)
+	st.histSz.Update(sz)
+	st.Unlock()
+}
+
 type Log struct {
 	BlockNumber string `json:"blockNumber"`
 }
@@ -64,6 +91,15 @@ type TxnResp struct {
 func callRPC(client *http.Client, q string) ([]byte, error) {
 	numQ := atomic.AddUint64(&numQueries, 1)
 
+	start := time.Now()
+	sz := int64(0)
+	defer func() {
+		dur := time.Since(start).Milliseconds()
+		stats.Update(dur, sz)
+		atomic.AddUint64(&numBytes, uint64(sz))
+		atomic.AddUint64(&numCalls, 1)
+	}()
+
 	for i := 0; ; i++ {
 		buf := bytes.NewBufferString(q)
 		req, err := http.NewRequest("POST", *rpc, buf)
@@ -93,39 +129,40 @@ func callRPC(client *http.Client, q string) ([]byte, error) {
 			fmt.Printf("len(data) == 0\n")
 			os.Exit(1)
 		}
+		sz = int64(len(data))
 
 		if numQ%(uint64(*sample)) == 0 {
 			x.Check2(sampleBuf.Write(data))
 			sampleBuf.WriteRune('\n')
 		}
 
-		ds := string(data)
-		if strings.Contains(ds, `"error":`) {
-			if strings.Contains(ds, `"error":{"code":429,`) {
+		if bytes.Contains(data, []byte(`"error":`)) {
+			if bytes.Contains(data, []byte(`"error":{"code":429,`)) {
 				atomic.AddUint64(&numLimits, 1)
 				// fmt.Println("Rate limited. Sleeping for a sec")
 				time.Sleep(time.Second)
 				continue
 			}
-			fmt.Printf("Got error response: %s\n", ds)
+			fmt.Printf("Got error response: %s\n", data)
 			os.Exit(1)
 		}
 		return data, nil
 	}
 }
 
-func fetchBlockByNumber(client *http.Client, blockNum int64) int64 {
+// Returns time and size
+func fetchBlockByNumber(client *http.Client, blockNum int64) {
 	if blockNum == 0 {
 		panic("blockNum is zero")
 	}
 	hno := hexutil.EncodeUint64(uint64(blockNum))
 	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":[%q, true],"id":1}`, hno)
 	// fmt.Printf("Block Query: %s\n", q)
+
 	data, err := callRPC(client, q)
 	x.Check(err)
 	atomic.AddUint64(&numCUs, 16)
 	atomic.AddUint64(&numQuickCUs, 2)
-	sz := len(data)
 
 	numRes := gjson.GetBytes(data, "result.number")
 	if numRes.Str != hno {
@@ -133,19 +170,18 @@ func fetchBlockByNumber(client *http.Client, blockNum int64) int64 {
 		fmt.Printf("Response: %s\n", data)
 		os.Exit(1)
 	}
-	return int64(sz)
 }
-func fetchBlockByHash(client *http.Client, hash string) int64 {
+func fetchBlockByHash(client *http.Client, hash string) {
 	if len(hash) == 0 {
 		panic("hash is empty")
 	}
 	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getBlockByHash","params":[%q, true],"id":1}`, hash)
 	// fmt.Printf("Block Query: %s\n", q)
+
 	data, err := callRPC(client, q)
 	x.Check(err)
 	atomic.AddUint64(&numCUs, 16)
 	atomic.AddUint64(&numQuickCUs, 2)
-	sz := len(data)
 
 	hashRes := gjson.GetBytes(data, "result.hash")
 	if hashRes.Str != hash {
@@ -153,9 +189,8 @@ func fetchBlockByHash(client *http.Client, hash string) int64 {
 		fmt.Printf("Response: %s\n", data)
 		os.Exit(1)
 	}
-	return int64(sz)
 }
-func fetchTxnByHash(client *http.Client, hash string) int64 {
+func fetchTxnByHash(client *http.Client, hash string) {
 	if len(hash) == 0 {
 		panic("hash is empty")
 	}
@@ -172,9 +207,8 @@ func fetchTxnByHash(client *http.Client, hash string) int64 {
 		fmt.Printf("Response: %s\n", data)
 		os.Exit(1)
 	}
-	return int64(len(data))
 }
-func fetchTxnReceipt(client *http.Client, hash string) int64 {
+func fetchTxnReceipt(client *http.Client, hash string) {
 	if len(hash) == 0 {
 		panic("hash is empty")
 	}
@@ -191,32 +225,29 @@ func fetchTxnReceipt(client *http.Client, hash string) int64 {
 		fmt.Printf("Response: %s\n", data)
 		os.Exit(1)
 	}
-	return int64(len(data))
 }
-func fetchTxnCountByHash(client *http.Client, hash string) int64 {
+func fetchTxnCountByHash(client *http.Client, hash string) {
 	if len(hash) == 0 {
 		panic("hash is empty")
 	}
 	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByHash","params":[%q],"id":1}`, hash)
 	// fmt.Printf("Block Query: %s\n", q)
-	data, err := callRPC(client, q)
+	_, err := callRPC(client, q)
 	x.Check(err)
 	atomic.AddUint64(&numCUs, 16)
 	atomic.AddUint64(&numQuickCUs, 2)
-	return int64(len(data))
 }
-func fetchTxnCountByNumber(client *http.Client, bnum int64) int64 {
+func fetchTxnCountByNumber(client *http.Client, bnum int64) {
 	if bnum == 0 {
 		panic("bnum is 0")
 	}
 	hno := hexutil.EncodeUint64(uint64(bnum))
 	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByNumber","params":[%q],"id":1}`, hno)
 	// fmt.Printf("Block Query: %s\n", q)
-	data, err := callRPC(client, q)
+	_, err := callRPC(client, q)
 	x.Check(err)
 	atomic.AddUint64(&numCUs, 16)
 	atomic.AddUint64(&numQuickCUs, 2)
-	return int64(len(data))
 }
 
 // The CUs are derived from:
@@ -337,10 +368,12 @@ func LoadInput() Input {
 }
 
 var sampleBuf bytes.Buffer
+var stats *Stats
 
 func main() {
 	flag.Parse()
 
+	stats = InitStats()
 	input := LoadInput()
 	rand.Seed(time.Now().UnixNano())
 
@@ -367,17 +400,6 @@ func main() {
 
 	go printQps()
 
-	var mu sync.Mutex
-	bounds := z.HistogramBounds(0, 4)
-	last := float64(16)
-	for i := 0; i < 2048; i++ {
-		bounds = append(bounds, last)
-		last += 16.0
-	}
-	// fmt.Printf("Bounds are: %+v\n", bounds)
-	histDur := z.NewHistogramData(bounds)
-	histSz := z.NewHistogramData(z.HistogramBounds(0, 20))
-
 	cumIdx := rand.Int63n(1000000)
 	fmt.Printf("start Idx: %d\n", cumIdx)
 
@@ -389,64 +411,48 @@ func main() {
 			defer wg.Done()
 
 			client := &http.Client{}
-			var times []int64
-			var sizes []int64
 			for i := int64(0); ; i++ {
 				ts := time.Now()
 				if ts.After(end) {
 					break
 				}
 
-				var sz int64
 				idx := atomic.AddInt64(&cumIdx, 1)
 				switch *method {
 				case "eth_getBlockByHash":
 					idx = idx % int64(len(input.blockHashes))
-					sz = fetchBlockByHash(client, input.blockHashes[idx])
+					fetchBlockByHash(client, input.blockHashes[idx])
 				case "eth_getBlockByNumber":
 					idx = idx % int64(len(input.blockNumbers))
-					sz = fetchBlockByNumber(client, input.blockNumbers[idx])
+					fetchBlockByNumber(client, input.blockNumbers[idx])
 				case "eth_getBlockTransactionCountByHash":
 					idx = idx % int64(len(input.blockHashes))
-					sz = fetchTxnCountByHash(client, input.blockHashes[idx])
+					fetchTxnCountByHash(client, input.blockHashes[idx])
 				case "eth_getBlockTransactionCountByNumber":
 					idx = idx % int64(len(input.blockNumbers))
-					sz = fetchTxnCountByNumber(client, input.blockNumbers[idx])
+					fetchTxnCountByNumber(client, input.blockNumbers[idx])
 				case "eth_getTransactionByHash":
 					idx = idx % int64(len(input.txnHashes))
-					sz = fetchTxnByHash(client, input.txnHashes[idx])
+					fetchTxnByHash(client, input.txnHashes[idx])
 				case "eth_getTransactionReceipt":
 					idx = idx % int64(len(input.txnHashes))
-					sz = fetchTxnReceipt(client, input.txnHashes[idx])
+					fetchTxnReceipt(client, input.txnHashes[idx])
 				default:
 					fmt.Printf("Invalid method")
 					os.Exit(1)
 				}
-
-				times = append(times, time.Since(ts).Milliseconds())
-				sizes = append(sizes, sz)
-				atomic.AddUint64(&numBytes, uint64(sz))
-				atomic.AddUint64(&numCalls, 1)
 			}
-			mu.Lock()
-			for _, t := range times {
-				histDur.Update(t)
-			}
-			for _, sz := range sizes {
-				histSz.Update(sz)
-			}
-			mu.Unlock()
 		}()
 	}
 	wg.Wait()
 
 	fmt.Println("-----------------------")
 	fmt.Printf("Latency in milliseconds")
-	fmt.Println(histDur.String())
+	fmt.Println(stats.histDur.String())
 
 	fmt.Println("-----------------------")
 	fmt.Printf("Resp size in bytes")
-	fmt.Println(histSz.String())
+	fmt.Println(stats.histSz.String())
 
 	time.Sleep(2 * time.Second)
 	fmt.Printf("Method: %s | DONE\n", *method)
