@@ -29,8 +29,6 @@ var (
 	rpc    = flag.String("rpc", "", "JSON-RPC endpoint")
 	gor    = flag.Int("j", 4, "Num Goroutines to use")
 	dur    = flag.Duration("dur", time.Minute, "How long to run the benchmark")
-	all    = flag.Bool("all", false, "Retrieve all fields.")
-	sample = flag.Int("sample", 10000, "Output query and response every N times")
 	method = flag.String("method", "", "Which ETH method to benchmark")
 )
 
@@ -273,13 +271,13 @@ func printQps() {
 		rm.Capture(numB)
 		numQ := atomic.LoadUint64(&numQueries)
 		numL := atomic.LoadUint64(&numLimits)
-		numC := atomic.LoadUint64(&numCUs)
-		quiC := atomic.LoadUint64(&numQuickCUs)
+		// numC := atomic.LoadUint64(&numCUs)
+		// quiC := atomic.LoadUint64(&numQuickCUs)
 		bytes := atomic.LoadUint64(&numBytes)
 
 		dur := time.Since(start)
-		fmt.Printf("Num Blocks: %5d | Num Queries: %4d | Num 429: %4d | Alchemy CUs: %4d | QuickNode CUs: %4d | Data: %s [ %6s @ %d blocks/sec ]\n",
-			numB, numQ, numL, numC, quiC,
+		fmt.Printf("Num Blocks: %5d | Num Queries: %4d | Num 429: %4d | Data: %s [ %6s @ %d calls/sec ]\n",
+			numB, numQ, numL,
 			humanize.IBytes(bytes), dur.Round(time.Second), rm.Rate())
 	}
 }
@@ -300,6 +298,9 @@ func LoadInput() Input {
 	x.Check(err)
 	bnos := strings.Split(string(data), "\n")
 	for _, bno := range bnos {
+		if len(bno) == 0 {
+			continue
+		}
 		b64, err := strconv.Atoi(bno)
 		x.Check(err)
 		input.blockNumbers = append(input.blockNumbers, int64(b64))
@@ -334,7 +335,9 @@ func main() {
 	histDur := z.NewHistogramData(bounds)
 	histSz := z.NewHistogramData(z.HistogramBounds(0, 20))
 
-	var cumIdx int64
+	cumIdx := rand.Int63n(1000000)
+	fmt.Printf("start Idx: %d\n", cumIdx)
+
 	var wg sync.WaitGroup
 	for i := 0; i < *gor; i++ {
 		wg.Add(1)
@@ -355,16 +358,22 @@ func main() {
 				idx := atomic.AddInt64(&cumIdx, 1)
 				switch *method {
 				case "eth_getBlockByHash":
+					idx = idx % int64(len(input.blockHashes))
 					sz = fetchBlockByHash(client, input.blockHashes[idx])
 				case "eth_getBlockByNumber":
+					idx = idx % int64(len(input.blockNumbers))
 					sz = fetchBlockByNumber(client, input.blockNumbers[idx])
 				case "eth_getBlockTransactionCountByHash":
+					idx = idx % int64(len(input.blockHashes))
 					sz = fetchTxnCountByHash(client, input.blockHashes[idx])
 				case "eth_getBlockTransactionCountByNumber":
+					idx = idx % int64(len(input.blockNumbers))
 					sz = fetchTxnCountByNumber(client, input.blockNumbers[idx])
 				case "eth_getTransactionByHash":
+					idx = idx % int64(len(input.txnHashes))
 					sz = fetchTxnByHash(client, input.txnHashes[idx])
 				case "eth_getTransactionReceipt":
+					idx = idx % int64(len(input.txnHashes))
 					sz = fetchTxnReceipt(client, input.txnHashes[idx])
 				default:
 					fmt.Printf("Invalid method")
