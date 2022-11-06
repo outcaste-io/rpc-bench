@@ -318,6 +318,7 @@ func main() {
 	input := LoadInput()
 	rand.Seed(time.Now().UnixNano())
 
+	fmt.Printf("Method: %s | START\n", *method)
 	end := time.Now().Add(*dur)
 	fmt.Printf("Time now: %s . Ending at %s\n",
 		time.Now().Truncate(time.Second), end.Truncate(time.Second))
@@ -406,5 +407,5 @@ func main() {
 	fmt.Println(histSz.String())
 
 	time.Sleep(2 * time.Second)
-	fmt.Println("DONE")
+	fmt.Printf("Method: %s | DONE\n", *method)
 }
