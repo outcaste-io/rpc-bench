@@ -326,7 +326,8 @@ func main() {
 	input := LoadInput()
 	rand.Seed(time.Now().UnixNano())
 
-	sampleBuf.WriteString(fmt.Sprintf("URL: %s | Method: %s\n", *rpc, *method))
+	sampleBuf.WriteString(fmt.Sprintf(`{"url": %q, "method": %q}`, *rpc, *method))
+	sampleBuf.WriteRune('\n')
 
 	defer func() {
 		if len(sampleBuf.Bytes()) == 0 {
