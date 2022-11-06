@@ -30,6 +30,7 @@ var (
 	gor    = flag.Int("j", 4, "Num Goroutines to use")
 	dur    = flag.Duration("dur", time.Minute, "How long to run the benchmark")
 	method = flag.String("method", "", "Which ETH method to benchmark")
+	sample = flag.Int("sample", 1000, "Dump output into file every N queries")
 )
 
 type Log struct {
@@ -61,7 +62,7 @@ type TxnResp struct {
 }
 
 func callRPC(client *http.Client, q string) ([]byte, error) {
-	atomic.AddUint64(&numQueries, 1)
+	numQ := atomic.AddUint64(&numQueries, 1)
 
 	for i := 0; ; i++ {
 		buf := bytes.NewBufferString(q)
@@ -91,6 +92,11 @@ func callRPC(client *http.Client, q string) ([]byte, error) {
 		if len(data) == 0 {
 			fmt.Printf("len(data) == 0\n")
 			os.Exit(1)
+		}
+
+		if numQ%(uint64(*sample)) == 0 {
+			x.Check2(sampleBuf.Write(data))
+			sampleBuf.WriteRune('\n')
 		}
 
 		ds := string(data)
@@ -258,7 +264,7 @@ func fetchBlockWithTxnAndLogsWithRPC(client *http.Client, blockNum int64) (int64
 	return sz, nil
 }
 
-var numBlocks, numQueries, numBytes, numLimits, numCUs, numQuickCUs uint64
+var numCalls, numQueries, numBytes, numLimits, numCUs, numQuickCUs uint64
 
 func printQps() {
 	ticker := time.NewTicker(time.Second)
@@ -267,7 +273,7 @@ func printQps() {
 	start := time.Now()
 	rm := y.NewRateMonitor(300)
 	for range ticker.C {
-		numB := atomic.LoadUint64(&numBlocks)
+		numB := atomic.LoadUint64(&numCalls)
 		rm.Capture(numB)
 		numQ := atomic.LoadUint64(&numQueries)
 		numL := atomic.LoadUint64(&numLimits)
@@ -312,11 +318,28 @@ func LoadInput() Input {
 	return input
 }
 
+var sampleBuf bytes.Buffer
+
 func main() {
 	flag.Parse()
 
 	input := LoadInput()
 	rand.Seed(time.Now().UnixNano())
+
+	sampleBuf.WriteString(fmt.Sprintf("URL: %s | Method: %s\n", *rpc, *method))
+
+	defer func() {
+		if len(sampleBuf.Bytes()) == 0 {
+			return
+		}
+		f, err := ioutil.TempFile(".", "sample-"+*method+"-")
+		x.Check(err)
+		fmt.Printf("Writing samples to file: %s\n", f.Name())
+
+		x.Check2(f.Write(sampleBuf.Bytes()))
+		x.Check(f.Close())
+		x.Check(f.Sync())
+	}()
 
 	fmt.Printf("Method: %s | START\n", *method)
 	end := time.Now().Add(*dur)
@@ -326,11 +349,11 @@ func main() {
 	go printQps()
 
 	var mu sync.Mutex
-	bounds := z.HistogramBounds(0, 10)
-	last := float64(2048)
-	for i := 0; i < 1024; i++ {
+	bounds := z.HistogramBounds(0, 4)
+	last := float64(16)
+	for i := 0; i < 2048; i++ {
 		bounds = append(bounds, last)
-		last += 1024.0
+		last += 16.0
 	}
 	// fmt.Printf("Bounds are: %+v\n", bounds)
 	histDur := z.NewHistogramData(bounds)
@@ -384,7 +407,7 @@ func main() {
 				times = append(times, time.Since(ts).Milliseconds())
 				sizes = append(sizes, sz)
 				atomic.AddUint64(&numBytes, uint64(sz))
-				atomic.AddUint64(&numBlocks, 1)
+				atomic.AddUint64(&numCalls, 1)
 			}
 			mu.Lock()
 			for _, t := range times {
