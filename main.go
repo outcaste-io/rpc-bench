@@ -115,6 +115,9 @@ func callRPC(client *http.Client, q string) ([]byte, error) {
 }
 
 func fetchBlockByNumber(client *http.Client, blockNum int64) int64 {
+	if blockNum == 0 {
+		panic("blockNum is zero")
+	}
 	hno := hexutil.EncodeUint64(uint64(blockNum))
 	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":[%q, true],"id":1}`, hno)
 	// fmt.Printf("Block Query: %s\n", q)
@@ -133,6 +136,9 @@ func fetchBlockByNumber(client *http.Client, blockNum int64) int64 {
 	return int64(sz)
 }
 func fetchBlockByHash(client *http.Client, hash string) int64 {
+	if len(hash) == 0 {
+		panic("hash is empty")
+	}
 	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getBlockByHash","params":[%q, true],"id":1}`, hash)
 	// fmt.Printf("Block Query: %s\n", q)
 	data, err := callRPC(client, q)
@@ -150,6 +156,9 @@ func fetchBlockByHash(client *http.Client, hash string) int64 {
 	return int64(sz)
 }
 func fetchTxnByHash(client *http.Client, hash string) int64 {
+	if len(hash) == 0 {
+		panic("hash is empty")
+	}
 	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getTransactionByHash","params":[%q],"id":1}`, hash)
 	// fmt.Printf("Block Query: %s\n", q)
 	data, err := callRPC(client, q)
@@ -166,6 +175,9 @@ func fetchTxnByHash(client *http.Client, hash string) int64 {
 	return int64(len(data))
 }
 func fetchTxnReceipt(client *http.Client, hash string) int64 {
+	if len(hash) == 0 {
+		panic("hash is empty")
+	}
 	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getTransactionReceipt","params":[%q],"id":1}`, hash)
 	// fmt.Printf("Block Query: %s\n", q)
 	data, err := callRPC(client, q)
@@ -182,6 +194,9 @@ func fetchTxnReceipt(client *http.Client, hash string) int64 {
 	return int64(len(data))
 }
 func fetchTxnCountByHash(client *http.Client, hash string) int64 {
+	if len(hash) == 0 {
+		panic("hash is empty")
+	}
 	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByHash","params":[%q],"id":1}`, hash)
 	// fmt.Printf("Block Query: %s\n", q)
 	data, err := callRPC(client, q)
@@ -191,6 +206,9 @@ func fetchTxnCountByHash(client *http.Client, hash string) int64 {
 	return int64(len(data))
 }
 func fetchTxnCountByNumber(client *http.Client, bnum int64) int64 {
+	if bnum == 0 {
+		panic("bnum is 0")
+	}
 	hno := hexutil.EncodeUint64(uint64(bnum))
 	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByNumber","params":[%q],"id":1}`, hno)
 	// fmt.Printf("Block Query: %s\n", q)
