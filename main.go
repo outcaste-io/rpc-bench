@@ -7,10 +7,10 @@ import (
 	"flag"
 	"fmt"
 	"io/ioutil"
-	"log"
 	"math/rand"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 	"sync"
 	"sync/atomic"
@@ -22,6 +22,7 @@ import (
 	"github.com/outcaste-io/lib/y"
 	"github.com/outcaste-io/ristretto/z"
 	"github.com/pkg/errors"
+	"github.com/tidwall/gjson"
 )
 
 var (
@@ -30,6 +31,7 @@ var (
 	dur    = flag.Duration("dur", time.Minute, "How long to run the benchmark")
 	all    = flag.Bool("all", false, "Retrieve all fields.")
 	sample = flag.Int("sample", 10000, "Output query and response every N times")
+	method = flag.String("method", "", "Which ETH method to benchmark")
 )
 
 type Log struct {
@@ -106,6 +108,93 @@ func callRPC(client *http.Client, q string) ([]byte, error) {
 		}
 		return data, nil
 	}
+}
+
+func fetchBlockByNumber(client *http.Client, blockNum int64) int64 {
+	hno := hexutil.EncodeUint64(uint64(blockNum))
+	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":[%q, true],"id":1}`, hno)
+	// fmt.Printf("Block Query: %s\n", q)
+	data, err := callRPC(client, q)
+	x.Check(err)
+	atomic.AddUint64(&numCUs, 16)
+	atomic.AddUint64(&numQuickCUs, 2)
+	sz := len(data)
+
+	numRes := gjson.GetBytes(data, "result.number")
+	if numRes.Str != hno {
+		fmt.Printf("Got result: %+v. Expecting: %s Test Failed.\n", numRes.Str, hno)
+		fmt.Printf("Response: %s\n", data)
+		os.Exit(1)
+	}
+	return int64(sz)
+}
+func fetchBlockByHash(client *http.Client, hash string) int64 {
+	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getBlockByHash","params":[%q, true],"id":1}`, hash)
+	// fmt.Printf("Block Query: %s\n", q)
+	data, err := callRPC(client, q)
+	x.Check(err)
+	atomic.AddUint64(&numCUs, 16)
+	atomic.AddUint64(&numQuickCUs, 2)
+	sz := len(data)
+
+	hashRes := gjson.GetBytes(data, "result.hash")
+	if hashRes.Str != hash {
+		fmt.Printf("Got result: %+v. Expecting: %s Test Failed.\n", hashRes.Str, hash)
+		fmt.Printf("Response: %s\n", data)
+		os.Exit(1)
+	}
+	return int64(sz)
+}
+func fetchTxnByHash(client *http.Client, hash string) int64 {
+	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getTransactionByHash","params":[%q],"id":1}`, hash)
+	// fmt.Printf("Block Query: %s\n", q)
+	data, err := callRPC(client, q)
+	x.Check(err)
+	atomic.AddUint64(&numCUs, 16)
+	atomic.AddUint64(&numQuickCUs, 2)
+
+	hashRes := gjson.GetBytes(data, "result.hash")
+	if hashRes.Str != hash {
+		fmt.Printf("Got result: %+v. Expecting: %s Test Failed.\n", hashRes.Str, hash)
+		fmt.Printf("Response: %s\n", data)
+		os.Exit(1)
+	}
+	return int64(len(data))
+}
+func fetchTxnReceipt(client *http.Client, hash string) int64 {
+	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getTransactionReceipt","params":[%q],"id":1}`, hash)
+	// fmt.Printf("Block Query: %s\n", q)
+	data, err := callRPC(client, q)
+	x.Check(err)
+	atomic.AddUint64(&numCUs, 16)
+	atomic.AddUint64(&numQuickCUs, 2)
+
+	hashRes := gjson.GetBytes(data, "result.transactionHash")
+	if hashRes.Str != hash {
+		fmt.Printf("Got result: %+v. Expecting: %s Test Failed.\n", hashRes.Str, hash)
+		fmt.Printf("Response: %s\n", data)
+		os.Exit(1)
+	}
+	return int64(len(data))
+}
+func fetchTxnCountByHash(client *http.Client, hash string) int64 {
+	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByHash","params":[%q],"id":1}`, hash)
+	// fmt.Printf("Block Query: %s\n", q)
+	data, err := callRPC(client, q)
+	x.Check(err)
+	atomic.AddUint64(&numCUs, 16)
+	atomic.AddUint64(&numQuickCUs, 2)
+	return int64(len(data))
+}
+func fetchTxnCountByNumber(client *http.Client, bnum int64) int64 {
+	hno := hexutil.EncodeUint64(uint64(bnum))
+	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByNumber","params":[%q],"id":1}`, hno)
+	// fmt.Printf("Block Query: %s\n", q)
+	data, err := callRPC(client, q)
+	x.Check(err)
+	atomic.AddUint64(&numCUs, 16)
+	atomic.AddUint64(&numQuickCUs, 2)
+	return int64(len(data))
 }
 
 // The CUs are derived from:
@@ -195,10 +284,39 @@ func printQps() {
 	}
 }
 
+type Input struct {
+	blockHashes  []string
+	blockNumbers []int64
+	txnHashes    []string
+}
+
+func LoadInput() Input {
+	var input Input
+	data, err := ioutil.ReadFile("eth-blockhashes.txt")
+	x.Check(err)
+	input.blockHashes = strings.Split(string(data), "\n")
+
+	data, err = ioutil.ReadFile("eth-blocks.txt")
+	x.Check(err)
+	bnos := strings.Split(string(data), "\n")
+	for _, bno := range bnos {
+		b64, err := strconv.Atoi(bno)
+		x.Check(err)
+		input.blockNumbers = append(input.blockNumbers, int64(b64))
+	}
+
+	data, err = ioutil.ReadFile("eth-txnhashes.txt")
+	x.Check(err)
+	input.txnHashes = strings.Split(string(data), "\n")
+	return input
+}
+
 func main() {
 	flag.Parse()
 
+	input := LoadInput()
 	rand.Seed(time.Now().UnixNano())
+
 	end := time.Now().Add(*dur)
 	fmt.Printf("Time now: %s . Ending at %s\n",
 		time.Now().Truncate(time.Second), end.Truncate(time.Second))
@@ -212,11 +330,11 @@ func main() {
 		bounds = append(bounds, last)
 		last += 1024.0
 	}
-	fmt.Printf("Bounds are: %+v\n", bounds)
+	// fmt.Printf("Bounds are: %+v\n", bounds)
 	histDur := z.NewHistogramData(bounds)
-	histSz := z.NewHistogramData(bounds)
+	histSz := z.NewHistogramData(z.HistogramBounds(0, 20))
 
-	N := *maxBlock - *minBlock
+	var cumIdx int64
 	var wg sync.WaitGroup
 	for i := 0; i < *gor; i++ {
 		wg.Add(1)
@@ -232,16 +350,26 @@ func main() {
 				if ts.After(end) {
 					break
 				}
-				bno := rand.Int63n(N) + *minBlock
 
 				var sz int64
-				var err error
-				if len(*rpc) > 0 {
-					sz, err = fetchBlockWithTxnAndLogsWithRPC(client, bno)
-				} else {
-					log.Fatalf("JSON-RPC URL should be provided")
+				idx := atomic.AddInt64(&cumIdx, 1)
+				switch *method {
+				case "eth_getBlockByHash":
+					sz = fetchBlockByHash(client, input.blockHashes[idx])
+				case "eth_getBlockByNumber":
+					sz = fetchBlockByNumber(client, input.blockNumbers[idx])
+				case "eth_getBlockTransactionCountByHash":
+					sz = fetchTxnCountByHash(client, input.blockHashes[idx])
+				case "eth_getBlockTransactionCountByNumber":
+					sz = fetchTxnCountByNumber(client, input.blockNumbers[idx])
+				case "eth_getTransactionByHash":
+					sz = fetchTxnByHash(client, input.txnHashes[idx])
+				case "eth_getTransactionReceipt":
+					sz = fetchTxnReceipt(client, input.txnHashes[idx])
+				default:
+					fmt.Printf("Invalid method")
+					os.Exit(1)
 				}
-				x.Check(err)
 
 				times = append(times, time.Since(ts).Milliseconds())
 				sizes = append(sizes, sz)
