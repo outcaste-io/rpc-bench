@@ -349,6 +349,15 @@ func LoadInput() Input {
 	x.Check(err)
 	input.blockHashes = strings.Split(string(data), "\n")
 
+	out := input.blockHashes[:0]
+	for _, hash := range input.blockHashes {
+		if len(hash) == 0 {
+			continue
+		}
+		out = append(out, hash)
+	}
+	input.blockHashes = out
+
 	data, err = ioutil.ReadFile("eth-blocks.txt")
 	x.Check(err)
 	bnos := strings.Split(string(data), "\n")
@@ -364,6 +373,14 @@ func LoadInput() Input {
 	data, err = ioutil.ReadFile("eth-txnhashes.txt")
 	x.Check(err)
 	input.txnHashes = strings.Split(string(data), "\n")
+	out = input.txnHashes[:0]
+	for _, hash := range input.txnHashes {
+		if len(hash) == 0 {
+			continue
+		}
+		out = append(out, hash)
+	}
+	input.txnHashes = out
 	return input
 }
 
