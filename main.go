@@ -337,8 +337,8 @@ func main() {
 		fmt.Printf("Writing samples to file: %s\n", f.Name())
 
 		x.Check2(f.Write(sampleBuf.Bytes()))
-		x.Check(f.Close())
 		x.Check(f.Sync())
+		x.Check(f.Close())
 	}()
 
 	fmt.Printf("Method: %s | START\n", *method)
