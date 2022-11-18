@@ -1,0 +1,504 @@
+URL is https://mainnet.infura.io/v3/da5f45e5ec2a44bf8babe7c53e5eb3f0
+Method: eth_getBlockByHash | START
+Time now: 2022-11-06 10:37:09 +0000 UTC . Ending at 2022-11-06 10:37:39 +0000 UTC
+start Idx: 559616
+Num Blocks:    18 | Num Queries:   22 | Num 429:    0 | Data: 2.7 MiB [     1s @ 0 calls/sec ]
+Num Blocks:    49 | Num Queries:   53 | Num 429:    0 | Data: 7.0 MiB [     2s @ 15 calls/sec ]
+Num Blocks:    81 | Num Queries:   85 | Num 429:    0 | Data: 11 MiB [     3s @ 20 calls/sec ]
+Num Blocks:   109 | Num Queries:  113 | Num 429:    0 | Data: 15 MiB [     4s @ 22 calls/sec ]
+Num Blocks:   135 | Num Queries:  139 | Num 429:    0 | Data: 18 MiB [     5s @ 23 calls/sec ]
+Num Blocks:   157 | Num Queries:  161 | Num 429:    0 | Data: 21 MiB [     6s @ 23 calls/sec ]
+Num Blocks:   178 | Num Queries:  182 | Num 429:    0 | Data: 23 MiB [     7s @ 22 calls/sec ]
+Num Blocks:   206 | Num Queries:  210 | Num 429:    0 | Data: 28 MiB [     8s @ 23 calls/sec ]
+Num Blocks:   239 | Num Queries:  243 | Num 429:    0 | Data: 32 MiB [     9s @ 24 calls/sec ]
+Num Blocks:   268 | Num Queries:  272 | Num 429:    0 | Data: 35 MiB [    10s @ 24 calls/sec ]
+Num Blocks:   304 | Num Queries:  308 | Num 429:    0 | Data: 39 MiB [    11s @ 26 calls/sec ]
+Num Blocks:   337 | Num Queries:  341 | Num 429:    0 | Data: 42 MiB [    12s @ 26 calls/sec ]
+Num Blocks:   369 | Num Queries:  373 | Num 429:    0 | Data: 46 MiB [    13s @ 27 calls/sec ]
+Num Blocks:   405 | Num Queries:  409 | Num 429:    0 | Data: 50 MiB [    14s @ 27 calls/sec ]
+Num Blocks:   436 | Num Queries:  440 | Num 429:    0 | Data: 55 MiB [    15s @ 27 calls/sec ]
+Num Blocks:   466 | Num Queries:  470 | Num 429:    0 | Data: 59 MiB [    16s @ 28 calls/sec ]
+Num Blocks:   499 | Num Queries:  503 | Num 429:    0 | Data: 63 MiB [    17s @ 28 calls/sec ]
+Num Blocks:   531 | Num Queries:  535 | Num 429:    0 | Data: 66 MiB [    18s @ 28 calls/sec ]
+Num Blocks:   559 | Num Queries:  563 | Num 429:    0 | Data: 71 MiB [    19s @ 28 calls/sec ]
+Num Blocks:   581 | Num Queries:  585 | Num 429:    0 | Data: 74 MiB [    20s @ 28 calls/sec ]
+Num Blocks:   611 | Num Queries:  615 | Num 429:    0 | Data: 77 MiB [    21s @ 28 calls/sec ]
+Num Blocks:   643 | Num Queries:  647 | Num 429:    0 | Data: 81 MiB [    22s @ 28 calls/sec ]
+Num Blocks:   675 | Num Queries:  679 | Num 429:    0 | Data: 86 MiB [    23s @ 28 calls/sec ]
+Num Blocks:   706 | Num Queries:  710 | Num 429:    0 | Data: 89 MiB [    24s @ 28 calls/sec ]
+Num Blocks:   720 | Num Queries:  724 | Num 429:    0 | Data: 92 MiB [    25s @ 28 calls/sec ]
+Num Blocks:   756 | Num Queries:  760 | Num 429:    0 | Data: 96 MiB [    26s @ 28 calls/sec ]
+Num Blocks:   788 | Num Queries:  792 | Num 429:    0 | Data: 100 MiB [    27s @ 28 calls/sec ]
+Num Blocks:   821 | Num Queries:  825 | Num 429:    0 | Data: 103 MiB [    28s @ 28 calls/sec ]
+Num Blocks:   853 | Num Queries:  857 | Num 429:    0 | Data: 107 MiB [    29s @ 28 calls/sec ]
+Num Blocks:   878 | Num Queries:  882 | Num 429:    0 | Data: 110 MiB [    30s @ 28 calls/sec ]
+Num Blocks:   881 | Num Queries:  882 | Num 429:    0 | Data: 111 MiB [    31s @ 27 calls/sec ]
+-----------------------
+Latency in milliseconds
+ -- Histogram: 
+Min value: 76 
+Max value: 2582 
+Count: 882 
+50p: 128.00 
+75p: 144.00 
+90p: 176.00 
+[64, 80) 27 3.06% 3.06%
+[80, 96) 154 17.46% 20.52%
+[96, 112) 206 23.36% 43.88%
+[112, 128) 194 22.00% 65.87%
+[128, 144) 125 14.17% 80.05%
+[144, 160) 58 6.58% 86.62%
+[160, 176) 37 4.20% 90.82%
+[176, 192) 25 2.83% 93.65%
+[192, 208) 9 1.02% 94.67%
+[208, 224) 10 1.13% 95.80%
+[224, 240) 9 1.02% 96.83%
+[240, 256) 4 0.45% 97.28%
+[272, 288) 3 0.34% 97.62%
+[288, 304) 2 0.23% 97.85%
+[304, 320) 1 0.11% 97.96%
+[352, 368) 1 0.11% 98.07%
+[368, 384) 2 0.23% 98.30%
+[416, 432) 2 0.23% 98.53%
+[464, 480) 1 0.11% 98.64%
+[480, 496) 1 0.11% 98.75%
+[560, 576) 2 0.23% 98.98%
+[592, 608) 1 0.11% 99.09%
+[624, 640) 1 0.11% 99.21%
+[704, 720) 1 0.11% 99.32%
+[752, 768) 1 0.11% 99.43%
+[912, 928) 1 0.11% 99.55%
+[1600, 1616) 1 0.11% 99.66%
+[1696, 1712) 1 0.11% 99.77%
+[2016, 2032) 1 0.11% 99.89%
+[2576, 2592) 1 0.11% 100.00%
+ --
+
+-----------------------
+Resp size in bytes
+ -- Histogram: 
+Min value: 1452 
+Max value: 1186312 
+Count: 882 
+50p: 131072.00 
+75p: 262144.00 
+90p: 262144.00 
+[1024, 2048) 20 2.27% 2.27%
+[2048, 4096) 5 0.57% 2.83%
+[4096, 8192) 12 1.36% 4.20%
+[8192, 16384) 23 2.61% 6.80%
+[16384, 32768) 53 6.01% 12.81%
+[32768, 65536) 112 12.70% 25.51%
+[65536, 131072) 295 33.45% 58.96%
+[131072, 262144) 292 33.11% 92.06%
+[262144, 524288) 63 7.14% 99.21%
+[524288, 1048576) 6 0.68% 99.89%
+[1.0 MiB, infinity) 1 0.11% 100.00%
+ --
+
+Num Blocks:   882 | Num Queries:  882 | Num 429:    0 | Data: 111 MiB [    32s @ 26 calls/sec ]
+Num Blocks:   882 | Num Queries:  882 | Num 429:    0 | Data: 111 MiB [    33s @ 26 calls/sec ]
+Method: eth_getBlockByHash | DONE
+Writing samples to file: ./sample-eth_getBlockByHash-727097209
+Method: eth_getBlockByNumber | START
+Time now: 2022-11-06 10:37:42 +0000 UTC . Ending at 2022-11-06 10:38:12 +0000 UTC
+start Idx: 192344
+Num Blocks:    17 | Num Queries:   21 | Num 429:    0 | Data: 2.0 MiB [     1s @ 0 calls/sec ]
+Num Blocks:    51 | Num Queries:   55 | Num 429:    0 | Data: 6.6 MiB [     2s @ 16 calls/sec ]
+Num Blocks:    86 | Num Queries:   90 | Num 429:    0 | Data: 12 MiB [     3s @ 23 calls/sec ]
+Num Blocks:   120 | Num Queries:  124 | Num 429:    0 | Data: 16 MiB [     4s @ 25 calls/sec ]
+Num Blocks:   157 | Num Queries:  161 | Num 429:    0 | Data: 20 MiB [     5s @ 27 calls/sec ]
+Num Blocks:   191 | Num Queries:  195 | Num 429:    0 | Data: 24 MiB [     6s @ 28 calls/sec ]
+Num Blocks:   224 | Num Queries:  228 | Num 429:    0 | Data: 27 MiB [     7s @ 29 calls/sec ]
+Num Blocks:   256 | Num Queries:  260 | Num 429:    0 | Data: 31 MiB [     8s @ 29 calls/sec ]
+Num Blocks:   289 | Num Queries:  293 | Num 429:    0 | Data: 34 MiB [     9s @ 30 calls/sec ]
+Num Blocks:   323 | Num Queries:  327 | Num 429:    0 | Data: 37 MiB [    10s @ 30 calls/sec ]
+Num Blocks:   359 | Num Queries:  363 | Num 429:    0 | Data: 41 MiB [    11s @ 31 calls/sec ]
+Num Blocks:   395 | Num Queries:  399 | Num 429:    0 | Data: 46 MiB [    12s @ 31 calls/sec ]
+Num Blocks:   426 | Num Queries:  430 | Num 429:    0 | Data: 50 MiB [    13s @ 31 calls/sec ]
+Num Blocks:   460 | Num Queries:  464 | Num 429:    0 | Data: 55 MiB [    14s @ 31 calls/sec ]
+Num Blocks:   493 | Num Queries:  497 | Num 429:    0 | Data: 60 MiB [    15s @ 31 calls/sec ]
+Num Blocks:   528 | Num Queries:  532 | Num 429:    0 | Data: 65 MiB [    16s @ 31 calls/sec ]
+Num Blocks:   563 | Num Queries:  567 | Num 429:    0 | Data: 69 MiB [    17s @ 32 calls/sec ]
+Num Blocks:   597 | Num Queries:  601 | Num 429:    0 | Data: 74 MiB [    18s @ 32 calls/sec ]
+Num Blocks:   629 | Num Queries:  633 | Num 429:    0 | Data: 78 MiB [    19s @ 32 calls/sec ]
+Num Blocks:   663 | Num Queries:  667 | Num 429:    0 | Data: 83 MiB [    20s @ 32 calls/sec ]
+Num Blocks:   700 | Num Queries:  704 | Num 429:    0 | Data: 88 MiB [    21s @ 32 calls/sec ]
+Num Blocks:   734 | Num Queries:  738 | Num 429:    0 | Data: 93 MiB [    22s @ 32 calls/sec ]
+Num Blocks:   768 | Num Queries:  772 | Num 429:    0 | Data: 97 MiB [    23s @ 32 calls/sec ]
+Num Blocks:   800 | Num Queries:  804 | Num 429:    0 | Data: 101 MiB [    24s @ 32 calls/sec ]
+Num Blocks:   833 | Num Queries:  837 | Num 429:    0 | Data: 105 MiB [    25s @ 32 calls/sec ]
+Num Blocks:   864 | Num Queries:  868 | Num 429:    0 | Data: 110 MiB [    26s @ 32 calls/sec ]
+Num Blocks:   898 | Num Queries:  902 | Num 429:    0 | Data: 115 MiB [    27s @ 32 calls/sec ]
+Num Blocks:   932 | Num Queries:  936 | Num 429:    0 | Data: 119 MiB [    28s @ 32 calls/sec ]
+Num Blocks:   964 | Num Queries:  968 | Num 429:    0 | Data: 124 MiB [    29s @ 32 calls/sec ]
+Num Blocks:   996 | Num Queries: 1000 | Num 429:    0 | Data: 128 MiB [    30s @ 32 calls/sec ]
+-----------------------
+Latency in milliseconds
+ -- Histogram: 
+Min value: 75 
+Max value: 572 
+Count: 1000 
+50p: 128.00 
+75p: 144.00 
+90p: 160.00 
+[64, 80) 36 3.60% 3.60%
+[80, 96) 171 17.10% 20.70%
+[96, 112) 274 27.40% 48.10%
+[112, 128) 257 25.70% 73.80%
+[128, 144) 114 11.40% 85.20%
+[144, 160) 56 5.60% 90.80%
+[160, 176) 24 2.40% 93.20%
+[176, 192) 31 3.10% 96.30%
+[192, 208) 17 1.70% 98.00%
+[208, 224) 4 0.40% 98.40%
+[224, 240) 2 0.20% 98.60%
+[240, 256) 3 0.30% 98.90%
+[256, 272) 4 0.40% 99.30%
+[304, 320) 3 0.30% 99.60%
+[432, 448) 1 0.10% 99.70%
+[448, 464) 1 0.10% 99.80%
+[560, 576) 2 0.20% 100.00%
+ --
+
+-----------------------
+Resp size in bytes
+ -- Histogram: 
+Min value: 1456 
+Max value: 836926 
+Count: 1000 
+50p: 131072.00 
+75p: 262144.00 
+90p: 262144.00 
+[1024, 2048) 21 2.10% 2.10%
+[2048, 4096) 6 0.60% 2.70%
+[4096, 8192) 9 0.90% 3.60%
+[8192, 16384) 26 2.60% 6.20%
+[16384, 32768) 46 4.60% 10.80%
+[32768, 65536) 124 12.40% 23.20%
+[65536, 131072) 355 35.50% 58.70%
+[131072, 262144) 322 32.20% 90.90%
+[262144, 524288) 82 8.20% 99.10%
+[524288, 1048576) 9 0.90% 100.00%
+ --
+
+Num Blocks:  1000 | Num Queries: 1000 | Num 429:    0 | Data: 129 MiB [    31s @ 31 calls/sec ]
+Num Blocks:  1000 | Num Queries: 1000 | Num 429:    0 | Data: 129 MiB [    32s @ 30 calls/sec ]
+Method: eth_getBlockByNumber | DONE
+Writing samples to file: ./sample-eth_getBlockByNumber-2693199116
+Method: eth_getTransactionByHash | START
+Time now: 2022-11-06 10:38:15 +0000 UTC . Ending at 2022-11-06 10:38:45 +0000 UTC
+start Idx: 207505
+Num Blocks:    32 | Num Queries:   36 | Num 429:    0 | Data: 31 KiB [     1s @ 0 calls/sec ]
+Num Blocks:    82 | Num Queries:   86 | Num 429:    0 | Data: 66 KiB [     2s @ 24 calls/sec ]
+Num Blocks:   129 | Num Queries:  133 | Num 429:    0 | Data: 112 KiB [     3s @ 32 calls/sec ]
+Num Blocks:   180 | Num Queries:  184 | Num 429:    0 | Data: 174 KiB [     4s @ 37 calls/sec ]
+Num Blocks:   229 | Num Queries:  233 | Num 429:    0 | Data: 210 KiB [     5s @ 39 calls/sec ]
+Num Blocks:   279 | Num Queries:  283 | Num 429:    0 | Data: 265 KiB [     6s @ 41 calls/sec ]
+Num Blocks:   328 | Num Queries:  332 | Num 429:    0 | Data: 354 KiB [     7s @ 42 calls/sec ]
+Num Blocks:   377 | Num Queries:  381 | Num 429:    0 | Data: 400 KiB [     8s @ 43 calls/sec ]
+Num Blocks:   428 | Num Queries:  432 | Num 429:    0 | Data: 434 KiB [     9s @ 44 calls/sec ]
+Num Blocks:   479 | Num Queries:  483 | Num 429:    0 | Data: 480 KiB [    10s @ 44 calls/sec ]
+Num Blocks:   530 | Num Queries:  534 | Num 429:    0 | Data: 516 KiB [    11s @ 45 calls/sec ]
+Num Blocks:   581 | Num Queries:  585 | Num 429:    0 | Data: 554 KiB [    12s @ 45 calls/sec ]
+Num Blocks:   629 | Num Queries:  633 | Num 429:    0 | Data: 586 KiB [    13s @ 45 calls/sec ]
+Num Blocks:   680 | Num Queries:  684 | Num 429:    0 | Data: 626 KiB [    14s @ 46 calls/sec ]
+Num Blocks:   730 | Num Queries:  734 | Num 429:    0 | Data: 671 KiB [    15s @ 46 calls/sec ]
+Num Blocks:   780 | Num Queries:  784 | Num 429:    0 | Data: 709 KiB [    16s @ 46 calls/sec ]
+Num Blocks:   829 | Num Queries:  833 | Num 429:    0 | Data: 742 KiB [    17s @ 46 calls/sec ]
+Num Blocks:   873 | Num Queries:  877 | Num 429:    0 | Data: 776 KiB [    18s @ 46 calls/sec ]
+Num Blocks:   924 | Num Queries:  928 | Num 429:    0 | Data: 813 KiB [    19s @ 46 calls/sec ]
+Num Blocks:   976 | Num Queries:  980 | Num 429:    0 | Data: 856 KiB [    20s @ 47 calls/sec ]
+Num Blocks:  1028 | Num Queries: 1032 | Num 429:    0 | Data: 894 KiB [    21s @ 47 calls/sec ]
+Num Blocks:  1078 | Num Queries: 1082 | Num 429:    0 | Data: 938 KiB [    22s @ 47 calls/sec ]
+Num Blocks:  1130 | Num Queries: 1134 | Num 429:    0 | Data: 982 KiB [    23s @ 47 calls/sec ]
+Num Blocks:  1181 | Num Queries: 1185 | Num 429:    0 | Data: 1.0 MiB [    24s @ 47 calls/sec ]
+Num Blocks:  1232 | Num Queries: 1236 | Num 429:    0 | Data: 1.1 MiB [    25s @ 48 calls/sec ]
+Num Blocks:  1282 | Num Queries: 1286 | Num 429:    0 | Data: 1.1 MiB [    26s @ 48 calls/sec ]
+Num Blocks:  1333 | Num Queries: 1337 | Num 429:    0 | Data: 1.1 MiB [    27s @ 48 calls/sec ]
+Num Blocks:  1385 | Num Queries: 1389 | Num 429:    0 | Data: 1.2 MiB [    28s @ 48 calls/sec ]
+Num Blocks:  1434 | Num Queries: 1438 | Num 429:    0 | Data: 1.2 MiB [    29s @ 48 calls/sec ]
+Num Blocks:  1486 | Num Queries: 1490 | Num 429:    0 | Data: 1.3 MiB [    30s @ 48 calls/sec ]
+-----------------------
+Latency in milliseconds
+ -- Histogram: 
+Min value: 74 
+Max value: 446 
+Count: 1490 
+50p: 80.00 
+75p: 80.00 
+90p: 96.00 
+[64, 80) 1134 76.11% 76.11%
+[80, 96) 323 21.68% 97.79%
+[96, 112) 12 0.81% 98.59%
+[112, 128) 4 0.27% 98.86%
+[128, 144) 5 0.34% 99.19%
+[144, 160) 1 0.07% 99.26%
+[176, 192) 4 0.27% 99.53%
+[192, 208) 2 0.13% 99.66%
+[208, 224) 1 0.07% 99.73%
+[320, 336) 1 0.07% 99.80%
+[336, 352) 1 0.07% 99.87%
+[368, 384) 1 0.07% 99.93%
+[432, 448) 1 0.07% 100.00%
+ --
+
+-----------------------
+Resp size in bytes
+ -- Histogram: 
+Min value: 600 
+Max value: 35868 
+Count: 1490 
+50p: 1024.00 
+75p: 1024.00 
+90p: 2048.00 
+[512, 1024) 1290 86.58% 86.58%
+[1024, 2048) 160 10.74% 97.32%
+[2048, 4096) 15 1.01% 98.32%
+[4096, 8192) 23 1.54% 99.87%
+[8192, 16384) 1 0.07% 99.93%
+[32768, 65536) 1 0.07% 100.00%
+ --
+
+Num Blocks:  1490 | Num Queries: 1490 | Num 429:    0 | Data: 1.3 MiB [    31s @ 47 calls/sec ]
+Num Blocks:  1490 | Num Queries: 1490 | Num 429:    0 | Data: 1.3 MiB [    32s @ 45 calls/sec ]
+Method: eth_getTransactionByHash | DONE
+Writing samples to file: ./sample-eth_getTransactionByHash-3640099062
+Method: eth_getTransactionReceipt | START
+Time now: 2022-11-06 10:38:47 +0000 UTC . Ending at 2022-11-06 10:39:17 +0000 UTC
+start Idx: 748360
+Num Blocks:    36 | Num Queries:   40 | Num 429:    0 | Data: 50 KiB [     1s @ 0 calls/sec ]
+Num Blocks:    86 | Num Queries:   90 | Num 429:    0 | Data: 122 KiB [     2s @ 25 calls/sec ]
+Num Blocks:   134 | Num Queries:  138 | Num 429:    0 | Data: 190 KiB [     3s @ 32 calls/sec ]
+Num Blocks:   183 | Num Queries:  187 | Num 429:    0 | Data: 272 KiB [     4s @ 36 calls/sec ]
+Num Blocks:   232 | Num Queries:  236 | Num 429:    0 | Data: 392 KiB [     5s @ 39 calls/sec ]
+Num Blocks:   276 | Num Queries:  280 | Num 429:    0 | Data: 464 KiB [     6s @ 40 calls/sec ]
+Num Blocks:   323 | Num Queries:  327 | Num 429:    0 | Data: 571 KiB [     7s @ 40 calls/sec ]
+Num Blocks:   365 | Num Queries:  369 | Num 429:    0 | Data: 629 KiB [     8s @ 41 calls/sec ]
+Num Blocks:   411 | Num Queries:  415 | Num 429:    0 | Data: 698 KiB [     9s @ 41 calls/sec ]
+Num Blocks:   457 | Num Queries:  461 | Num 429:    0 | Data: 772 KiB [    10s @ 42 calls/sec ]
+Num Blocks:   507 | Num Queries:  511 | Num 429:    0 | Data: 867 KiB [    11s @ 42 calls/sec ]
+Num Blocks:   556 | Num Queries:  560 | Num 429:    0 | Data: 970 KiB [    12s @ 43 calls/sec ]
+Num Blocks:   605 | Num Queries:  609 | Num 429:    0 | Data: 1.0 MiB [    13s @ 43 calls/sec ]
+Num Blocks:   654 | Num Queries:  658 | Num 429:    0 | Data: 1.1 MiB [    14s @ 44 calls/sec ]
+Num Blocks:   700 | Num Queries:  704 | Num 429:    0 | Data: 1.2 MiB [    15s @ 44 calls/sec ]
+Num Blocks:   731 | Num Queries:  735 | Num 429:    0 | Data: 1.2 MiB [    16s @ 43 calls/sec ]
+Num Blocks:   757 | Num Queries:  761 | Num 429:    0 | Data: 1.3 MiB [    17s @ 42 calls/sec ]
+Num Blocks:   805 | Num Queries:  809 | Num 429:    0 | Data: 1.4 MiB [    18s @ 42 calls/sec ]
+Num Blocks:   853 | Num Queries:  857 | Num 429:    0 | Data: 1.4 MiB [    19s @ 42 calls/sec ]
+Num Blocks:   904 | Num Queries:  908 | Num 429:    0 | Data: 1.5 MiB [    20s @ 43 calls/sec ]
+Num Blocks:   953 | Num Queries:  957 | Num 429:    0 | Data: 1.6 MiB [    21s @ 43 calls/sec ]
+Num Blocks:  1000 | Num Queries: 1004 | Num 429:    0 | Data: 1.7 MiB [    22s @ 43 calls/sec ]
+Num Blocks:  1033 | Num Queries: 1037 | Num 429:    0 | Data: 1.7 MiB [    23s @ 43 calls/sec ]
+Num Blocks:  1080 | Num Queries: 1084 | Num 429:    0 | Data: 1.8 MiB [    24s @ 43 calls/sec ]
+Num Blocks:  1130 | Num Queries: 1134 | Num 429:    0 | Data: 1.9 MiB [    25s @ 43 calls/sec ]
+Num Blocks:  1177 | Num Queries: 1181 | Num 429:    0 | Data: 2.0 MiB [    26s @ 43 calls/sec ]
+Num Blocks:  1225 | Num Queries: 1229 | Num 429:    0 | Data: 2.1 MiB [    27s @ 44 calls/sec ]
+Num Blocks:  1275 | Num Queries: 1279 | Num 429:    0 | Data: 2.1 MiB [    28s @ 44 calls/sec ]
+Num Blocks:  1322 | Num Queries: 1326 | Num 429:    0 | Data: 2.2 MiB [    29s @ 44 calls/sec ]
+Num Blocks:  1371 | Num Queries: 1374 | Num 429:    0 | Data: 2.3 MiB [    30s @ 44 calls/sec ]
+-----------------------
+Latency in milliseconds
+ -- Histogram: 
+Min value: 75 
+Max value: 2184 
+Count: 1374 
+50p: 80.00 
+75p: 96.00 
+90p: 96.00 
+[64, 80) 735 53.49% 53.49%
+[80, 96) 557 40.54% 94.03%
+[96, 112) 42 3.06% 97.09%
+[112, 128) 13 0.95% 98.03%
+[128, 144) 9 0.66% 98.69%
+[144, 160) 3 0.22% 98.91%
+[160, 176) 1 0.07% 98.98%
+[176, 192) 1 0.07% 99.05%
+[224, 240) 2 0.15% 99.20%
+[240, 256) 1 0.07% 99.27%
+[256, 272) 1 0.07% 99.34%
+[272, 288) 1 0.07% 99.42%
+[304, 320) 3 0.22% 99.64%
+[320, 336) 1 0.07% 99.71%
+[496, 512) 1 0.07% 99.78%
+[1520, 1536) 1 0.07% 99.85%
+[1584, 1600) 1 0.07% 99.93%
+[2176, 2192) 1 0.07% 100.00%
+ --
+
+-----------------------
+Resp size in bytes
+ -- Histogram: 
+Min value: 1027 
+Max value: 45175 
+Count: 1374 
+50p: 2048.00 
+75p: 2048.00 
+90p: 4096.00 
+[1024, 2048) 1211 88.14% 88.14%
+[2048, 4096) 99 7.21% 95.34%
+[4096, 8192) 50 3.64% 98.98%
+[8192, 16384) 12 0.87% 99.85%
+[16384, 32768) 1 0.07% 99.93%
+[32768, 65536) 1 0.07% 100.00%
+ --
+
+Num Blocks:  1374 | Num Queries: 1374 | Num 429:    0 | Data: 2.3 MiB [    31s @ 43 calls/sec ]
+Num Blocks:  1374 | Num Queries: 1374 | Num 429:    0 | Data: 2.3 MiB [    32s @ 41 calls/sec ]
+Method: eth_getTransactionReceipt | DONE
+Writing samples to file: ./sample-eth_getTransactionReceipt-405081514
+Method: eth_getBlockTransactionCountByHash | START
+Time now: 2022-11-06 10:39:19 +0000 UTC . Ending at 2022-11-06 10:39:49 +0000 UTC
+start Idx: 195347
+Num Blocks:    35 | Num Queries:   39 | Num 429:    0 | Data: 1.4 KiB [     1s @ 0 calls/sec ]
+Num Blocks:    85 | Num Queries:   89 | Num 429:    0 | Data: 3.3 KiB [     2s @ 25 calls/sec ]
+Num Blocks:   137 | Num Queries:  141 | Num 429:    0 | Data: 5.4 KiB [     3s @ 33 calls/sec ]
+Num Blocks:   187 | Num Queries:  191 | Num 429:    0 | Data: 7.3 KiB [     4s @ 37 calls/sec ]
+Num Blocks:   236 | Num Queries:  240 | Num 429:    0 | Data: 9.2 KiB [     5s @ 40 calls/sec ]
+Num Blocks:   288 | Num Queries:  292 | Num 429:    0 | Data: 11 KiB [     6s @ 42 calls/sec ]
+Num Blocks:   338 | Num Queries:  342 | Num 429:    0 | Data: 13 KiB [     7s @ 43 calls/sec ]
+Num Blocks:   388 | Num Queries:  392 | Num 429:    0 | Data: 15 KiB [     8s @ 44 calls/sec ]
+Num Blocks:   416 | Num Queries:  420 | Num 429:    0 | Data: 16 KiB [     9s @ 42 calls/sec ]
+Num Blocks:   462 | Num Queries:  466 | Num 429:    0 | Data: 18 KiB [    10s @ 42 calls/sec ]
+Num Blocks:   512 | Num Queries:  516 | Num 429:    0 | Data: 20 KiB [    11s @ 43 calls/sec ]
+Num Blocks:   563 | Num Queries:  567 | Num 429:    0 | Data: 22 KiB [    12s @ 44 calls/sec ]
+Num Blocks:   612 | Num Queries:  616 | Num 429:    0 | Data: 24 KiB [    13s @ 44 calls/sec ]
+Num Blocks:   643 | Num Queries:  647 | Num 429:    0 | Data: 25 KiB [    14s @ 43 calls/sec ]
+Num Blocks:   675 | Num Queries:  679 | Num 429:    0 | Data: 26 KiB [    15s @ 42 calls/sec ]
+Num Blocks:   725 | Num Queries:  729 | Num 429:    0 | Data: 28 KiB [    16s @ 43 calls/sec ]
+Num Blocks:   777 | Num Queries:  781 | Num 429:    0 | Data: 30 KiB [    17s @ 43 calls/sec ]
+Num Blocks:   828 | Num Queries:  832 | Num 429:    0 | Data: 32 KiB [    18s @ 44 calls/sec ]
+Num Blocks:   877 | Num Queries:  881 | Num 429:    0 | Data: 34 KiB [    19s @ 44 calls/sec ]
+Num Blocks:   928 | Num Queries:  932 | Num 429:    0 | Data: 36 KiB [    20s @ 44 calls/sec ]
+Num Blocks:   980 | Num Queries:  984 | Num 429:    0 | Data: 38 KiB [    21s @ 45 calls/sec ]
+Num Blocks:  1031 | Num Queries: 1035 | Num 429:    0 | Data: 40 KiB [    22s @ 45 calls/sec ]
+Num Blocks:  1082 | Num Queries: 1086 | Num 429:    0 | Data: 42 KiB [    23s @ 45 calls/sec ]
+Num Blocks:  1131 | Num Queries: 1135 | Num 429:    0 | Data: 44 KiB [    24s @ 45 calls/sec ]
+Num Blocks:  1183 | Num Queries: 1187 | Num 429:    0 | Data: 46 KiB [    25s @ 45 calls/sec ]
+Num Blocks:  1234 | Num Queries: 1238 | Num 429:    0 | Data: 48 KiB [    26s @ 46 calls/sec ]
+Num Blocks:  1285 | Num Queries: 1289 | Num 429:    0 | Data: 50 KiB [    27s @ 46 calls/sec ]
+Num Blocks:  1337 | Num Queries: 1341 | Num 429:    0 | Data: 52 KiB [    28s @ 46 calls/sec ]
+Num Blocks:  1386 | Num Queries: 1390 | Num 429:    0 | Data: 54 KiB [    29s @ 46 calls/sec ]
+Num Blocks:  1438 | Num Queries: 1441 | Num 429:    0 | Data: 56 KiB [    30s @ 46 calls/sec ]
+-----------------------
+Latency in milliseconds
+ -- Histogram: 
+Min value: 75 
+Max value: 1799 
+Count: 1441 
+50p: 80.00 
+75p: 80.00 
+90p: 96.00 
+[64, 80) 1237 85.84% 85.84%
+[80, 96) 174 12.07% 97.92%
+[96, 112) 11 0.76% 98.68%
+[112, 128) 6 0.42% 99.10%
+[128, 144) 3 0.21% 99.31%
+[144, 160) 1 0.07% 99.38%
+[320, 336) 3 0.21% 99.58%
+[336, 352) 1 0.07% 99.65%
+[544, 560) 1 0.07% 99.72%
+[912, 928) 1 0.07% 99.79%
+[1104, 1120) 1 0.07% 99.86%
+[1424, 1440) 1 0.07% 99.93%
+[1792, 1808) 1 0.07% 100.00%
+ --
+
+-----------------------
+Resp size in bytes
+ -- Histogram: 
+Min value: 39 
+Max value: 41 
+Count: 1441 
+50p: 64.00 
+75p: 64.00 
+90p: 64.00 
+[32, 64) 1441 100.00% 100.00%
+ --
+
+Num Blocks:  1441 | Num Queries: 1441 | Num 429:    0 | Data: 56 KiB [    31s @ 45 calls/sec ]
+Num Blocks:  1441 | Num Queries: 1441 | Num 429:    0 | Data: 56 KiB [    32s @ 43 calls/sec ]
+Method: eth_getBlockTransactionCountByHash | DONE
+Writing samples to file: ./sample-eth_getBlockTransactionCountByHash-2733569439
+Method: eth_getBlockTransactionCountByNumber | START
+Time now: 2022-11-06 10:39:51 +0000 UTC . Ending at 2022-11-06 10:40:21 +0000 UTC
+start Idx: 358685
+Num Blocks:    36 | Num Queries:   40 | Num 429:    0 | Data: 1.4 KiB [     1s @ 0 calls/sec ]
+Num Blocks:    88 | Num Queries:   92 | Num 429:    0 | Data: 3.4 KiB [     2s @ 25 calls/sec ]
+Num Blocks:   137 | Num Queries:  141 | Num 429:    0 | Data: 5.4 KiB [     3s @ 33 calls/sec ]
+Num Blocks:   176 | Num Queries:  180 | Num 429:    0 | Data: 6.9 KiB [     4s @ 34 calls/sec ]
+Num Blocks:   195 | Num Queries:  199 | Num 429:    0 | Data: 7.6 KiB [     5s @ 31 calls/sec ]
+Num Blocks:   242 | Num Queries:  246 | Num 429:    0 | Data: 9.5 KiB [     6s @ 34 calls/sec ]
+Num Blocks:   294 | Num Queries:  298 | Num 429:    0 | Data: 12 KiB [     7s @ 36 calls/sec ]
+Num Blocks:   345 | Num Queries:  349 | Num 429:    0 | Data: 14 KiB [     8s @ 38 calls/sec ]
+Num Blocks:   394 | Num Queries:  398 | Num 429:    0 | Data: 15 KiB [     9s @ 39 calls/sec ]
+Num Blocks:   444 | Num Queries:  448 | Num 429:    0 | Data: 17 KiB [    10s @ 40 calls/sec ]
+Num Blocks:   492 | Num Queries:  496 | Num 429:    0 | Data: 19 KiB [    11s @ 41 calls/sec ]
+Num Blocks:   542 | Num Queries:  546 | Num 429:    0 | Data: 21 KiB [    12s @ 42 calls/sec ]
+Num Blocks:   587 | Num Queries:  591 | Num 429:    0 | Data: 23 KiB [    13s @ 42 calls/sec ]
+Num Blocks:   635 | Num Queries:  639 | Num 429:    0 | Data: 25 KiB [    14s @ 42 calls/sec ]
+Num Blocks:   684 | Num Queries:  688 | Num 429:    0 | Data: 27 KiB [    15s @ 43 calls/sec ]
+Num Blocks:   735 | Num Queries:  739 | Num 429:    0 | Data: 29 KiB [    16s @ 43 calls/sec ]
+Num Blocks:   787 | Num Queries:  791 | Num 429:    0 | Data: 31 KiB [    17s @ 44 calls/sec ]
+Num Blocks:   839 | Num Queries:  843 | Num 429:    0 | Data: 33 KiB [    18s @ 44 calls/sec ]
+Num Blocks:   891 | Num Queries:  895 | Num 429:    0 | Data: 35 KiB [    19s @ 44 calls/sec ]
+Num Blocks:   941 | Num Queries:  945 | Num 429:    0 | Data: 37 KiB [    20s @ 45 calls/sec ]
+Num Blocks:   993 | Num Queries:  997 | Num 429:    0 | Data: 39 KiB [    21s @ 45 calls/sec ]
+Num Blocks:  1043 | Num Queries: 1047 | Num 429:    0 | Data: 41 KiB [    22s @ 45 calls/sec ]
+Num Blocks:  1091 | Num Queries: 1095 | Num 429:    0 | Data: 43 KiB [    23s @ 45 calls/sec ]
+Num Blocks:  1119 | Num Queries: 1123 | Num 429:    0 | Data: 44 KiB [    24s @ 45 calls/sec ]
+Num Blocks:  1155 | Num Queries: 1159 | Num 429:    0 | Data: 45 KiB [    25s @ 44 calls/sec ]
+Num Blocks:  1204 | Num Queries: 1208 | Num 429:    0 | Data: 47 KiB [    26s @ 44 calls/sec ]
+Num Blocks:  1255 | Num Queries: 1259 | Num 429:    0 | Data: 49 KiB [    27s @ 45 calls/sec ]
+Num Blocks:  1306 | Num Queries: 1310 | Num 429:    0 | Data: 51 KiB [    28s @ 45 calls/sec ]
+Num Blocks:  1357 | Num Queries: 1361 | Num 429:    0 | Data: 53 KiB [    29s @ 45 calls/sec ]
+Num Blocks:  1409 | Num Queries: 1412 | Num 429:    0 | Data: 55 KiB [    30s @ 45 calls/sec ]
+-----------------------
+Latency in milliseconds
+ -- Histogram: 
+Min value: 74 
+Max value: 1828 
+Count: 1412 
+50p: 80.00 
+75p: 80.00 
+90p: 96.00 
+[64, 80) 1214 85.98% 85.98%
+[80, 96) 145 10.27% 96.25%
+[96, 112) 17 1.20% 97.45%
+[112, 128) 8 0.57% 98.02%
+[128, 144) 1 0.07% 98.09%
+[144, 160) 2 0.14% 98.23%
+[160, 176) 2 0.14% 98.37%
+[176, 192) 1 0.07% 98.44%
+[192, 208) 3 0.21% 98.65%
+[208, 224) 2 0.14% 98.80%
+[224, 240) 2 0.14% 98.94%
+[256, 272) 1 0.07% 99.01%
+[304, 320) 1 0.07% 99.08%
+[320, 336) 4 0.28% 99.36%
+[336, 352) 2 0.14% 99.50%
+[384, 400) 1 0.07% 99.58%
+[400, 416) 1 0.07% 99.65%
+[512, 528) 1 0.07% 99.72%
+[1232, 1248) 1 0.07% 99.79%
+[1280, 1296) 1 0.07% 99.86%
+[1312, 1328) 1 0.07% 99.93%
+[1824, 1840) 1 0.07% 100.00%
+ --
+
+-----------------------
+Resp size in bytes
+ -- Histogram: 
+Min value: 39 
+Max value: 41 
+Count: 1412 
+50p: 64.00 
+75p: 64.00 
+90p: 64.00 
+[32, 64) 1412 100.00% 100.00%
+ --
+
+Num Blocks:  1412 | Num Queries: 1412 | Num 429:    0 | Data: 55 KiB [    31s @ 44 calls/sec ]
+Num Blocks:  1412 | Num Queries: 1412 | Num 429:    0 | Data: 55 KiB [    32s @ 43 calls/sec ]
+Method: eth_getBlockTransactionCountByNumber | DONE
+Writing samples to file: ./sample-eth_getBlockTransactionCountByNumber-2500608610
