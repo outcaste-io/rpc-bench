@@ -27,6 +27,7 @@ import (
 
 var (
 	rpc    = flag.String("rpc", "", "JSON-RPC endpoint")
+	secret = flag.String("secret", "", "Add a secret header")
 	gor    = flag.Int("j", 4, "Num Goroutines to use")
 	dur    = flag.Duration("dur", time.Minute, "How long to run the benchmark")
 	method = flag.String("method", "", "Which ETH method to benchmark")
@@ -105,6 +106,9 @@ func callRPC(client *http.Client, q string) ([]byte, error) {
 		req, err := http.NewRequest("POST", *rpc, buf)
 		x.Check(err)
 		req.Header.Add("Content-Type", "application/json")
+		if len(*secret) > 0 {
+			req.Header.Add("Secret-Header", *secret)
+		}
 
 		resp, err := client.Do(req)
 		if err != nil {
