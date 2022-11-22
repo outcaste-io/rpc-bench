@@ -141,12 +141,12 @@ func callRPC(client *http.Client, q string) ([]byte, error) {
 		}
 
 		if bytes.Contains(data, []byte(`"error":`)) {
-			if bytes.Contains(data, []byte(`"error":{"code":429,`)) {
-				atomic.AddUint64(&numLimits, 1)
-				// fmt.Println("Rate limited. Sleeping for a sec")
-				time.Sleep(time.Second)
-				continue
-			}
+			// if bytes.Contains(data, []byte(`"error":{"code":429,`)) {
+			// 	atomic.AddUint64(&numLimits, 1)
+			// 	// fmt.Println("Rate limited. Sleeping for a sec")
+			// 	time.Sleep(time.Second)
+			// 	continue
+			// }
 			fmt.Printf("Got error response: %s\n", data)
 			os.Exit(1)
 		}
@@ -259,9 +259,7 @@ func fetchTxnCountByNumber(client *http.Client, bnum int64) {
 // Quick CUs are derived from:
 // https://www.quicknode.com/api-credits/eth
 func fetchBlockWithTxnAndLogsWithRPC(client *http.Client, blockNum int64) (int64, error) {
-	if client == nil {
-		client = &http.Client{}
-	}
+	x.AssertTrue(client != nil)
 	hno := hexutil.EncodeUint64(uint64(blockNum))
 	q := fmt.Sprintf(`{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":[%q, true],"id":1}`, hno)
 	// fmt.Printf("Block Query: %s\n", q)
@@ -391,6 +389,22 @@ func LoadInput() Input {
 var sampleBuf bytes.Buffer
 var stats *Stats
 
+func warmUp(client *http.Client) {
+	for i := 0; i < 10; i++ {
+		start := time.Now()
+		buf := bytes.NewBufferString(`{"id": 1, "jsonrpc": "2.0", "method": "eth_chainId" }`)
+		req, err := http.NewRequest("POST", *rpc, buf)
+		x.Check(err)
+		resp, err := client.Do(req)
+		x.Check(err)
+		data, err := ioutil.ReadAll(resp.Body)
+		x.Check(err)
+		fmt.Printf("Connection established with response [%d, %s]: %s\n",
+			i, time.Since(start).Truncate(time.Millisecond), data)
+		x.Check(resp.Body.Close())
+	}
+}
+
 func main() {
 	flag.Parse()
 
@@ -414,6 +428,15 @@ func main() {
 		x.Check(f.Close())
 	}()
 
+	clients := make([]*http.Client, *gor)
+	for i := 0; i < *gor; i++ {
+		clients[i] = &http.Client{
+			Transport: &http.Transport{},
+		}
+		warmUp(clients[i])
+		fmt.Printf("Warmed up client: %d\n", i)
+	}
+
 	fmt.Printf("Method: %s | START\n", *method)
 	end := time.Now().Add(*dur)
 	fmt.Printf("Time now: %s . Ending at %s\n",
@@ -428,10 +451,12 @@ func main() {
 	for i := 0; i < *gor; i++ {
 		wg.Add(1)
 
-		go func() {
+		go func(idx int) {
 			defer wg.Done()
 
-			client := &http.Client{}
+			client := clients[idx]
+			x.AssertTrue(client != nil)
+
 			for i := int64(0); ; i++ {
 				ts := time.Now()
 				if ts.After(end) {
@@ -463,7 +488,7 @@ func main() {
 					os.Exit(1)
 				}
 			}
-		}()
+		}(i)
 	}
 	wg.Wait()
 
