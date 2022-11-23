@@ -395,6 +395,9 @@ func warmUp(client *http.Client) {
 		buf := bytes.NewBufferString(`{"id": 1, "jsonrpc": "2.0", "method": "eth_chainId" }`)
 		req, err := http.NewRequest("POST", *rpc, buf)
 		x.Check(err)
+		if len(*secret) > 0 {
+			req.Header.Add("Secret-Header", *secret)
+		}
 		resp, err := client.Do(req)
 		x.Check(err)
 		data, err := ioutil.ReadAll(resp.Body)
