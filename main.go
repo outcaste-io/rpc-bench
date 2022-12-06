@@ -390,7 +390,7 @@ var sampleBuf bytes.Buffer
 var stats *Stats
 
 func warmUp(client *http.Client) {
-	for i := 0; i < 10; i++ {
+	for i := 0; i < 3; i++ {
 		start := time.Now()
 		buf := bytes.NewBufferString(`{"id": 1, "jsonrpc": "2.0", "method": "eth_chainId" }`)
 		req, err := http.NewRequest("POST", *rpc, buf)
@@ -402,7 +402,7 @@ func warmUp(client *http.Client) {
 		x.Check(err)
 		data, err := ioutil.ReadAll(resp.Body)
 		x.Check(err)
-		fmt.Printf("Connection established with response [%d, %s]: %s\n",
+		fmt.Printf("Connection established with response [%d, %s]: %s",
 			i, time.Since(start).Truncate(time.Millisecond), data)
 		x.Check(resp.Body.Close())
 	}
