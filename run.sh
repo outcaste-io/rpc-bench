@@ -1,4 +1,6 @@
-go build . || exit
+set -e
+
+go build .
 
 echo "URL is $URL"
 if [ -z "$URL" ]; then echo "Please export URL"; exit; fi
