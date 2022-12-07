@@ -1,0 +1,2210 @@
+URL is https://eth-uswest.0xfast.com/rpc/beta
+Connection established with response [0, 26ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 0
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 1
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 2
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 3
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 4
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 5
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 6
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 7
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 8
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 9
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 10
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 11
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 12
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 13
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 14
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 15
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 16
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 17
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 18
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 19
+Connection established with response [0, 18ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 20
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 21
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 22
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 23
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 24
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 25
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 26
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 27
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 28
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 29
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 30
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 31
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 32
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 33
+Connection established with response [0, 19ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 34
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 35
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 36
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 37
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 38
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 39
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 40
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 41
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 42
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 43
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 44
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 45
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 46
+Connection established with response [0, 19ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 47
+Connection established with response [0, 20ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 48
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 49
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 50
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 51
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 52
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 53
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 54
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 55
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 56
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 57
+Connection established with response [0, 32ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 58
+Connection established with response [0, 18ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 59
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 60
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 61
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 62
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 63
+Method: eth_getBlockByNumber | START
+Time now: 2022-12-07 01:21:14 +0000 UTC . Ending at 2022-12-07 01:22:14 +0000 UTC
+start Idx: 564841
+Num Blocks:  1257 | Num Queries: 1321 | Num 429:    0 | Data: 165 MiB [     1s @ 0 calls/sec ]
+Num Blocks:  3074 | Num Queries: 3138 | Num 429:    0 | Data: 403 MiB [     2s @ 913 calls/sec ]
+Num Blocks:  4885 | Num Queries: 4949 | Num 429:    0 | Data: 642 MiB [     3s @ 1211 calls/sec ]
+Num Blocks:  6726 | Num Queries: 6790 | Num 429:    0 | Data: 885 MiB [     4s @ 1368 calls/sec ]
+Num Blocks:  8492 | Num Queries: 8556 | Num 429:    0 | Data: 1.1 GiB [     5s @ 1448 calls/sec ]
+Num Blocks: 10233 | Num Queries: 10297 | Num 429:    0 | Data: 1.3 GiB [     6s @ 1497 calls/sec ]
+Num Blocks: 11917 | Num Queries: 11981 | Num 429:    0 | Data: 1.5 GiB [     7s @ 1524 calls/sec ]
+Num Blocks: 13738 | Num Queries: 13802 | Num 429:    0 | Data: 1.8 GiB [     8s @ 1561 calls/sec ]
+Num Blocks: 15427 | Num Queries: 15491 | Num 429:    0 | Data: 2.0 GiB [     9s @ 1575 calls/sec ]
+Num Blocks: 17227 | Num Queries: 17291 | Num 429:    0 | Data: 2.2 GiB [    10s @ 1597 calls/sec ]
+Num Blocks: 18938 | Num Queries: 19002 | Num 429:    0 | Data: 2.5 GiB [    11s @ 1608 calls/sec ]
+Num Blocks: 20692 | Num Queries: 20756 | Num 429:    0 | Data: 2.7 GiB [    12s @ 1620 calls/sec ]
+Num Blocks: 22411 | Num Queries: 22475 | Num 429:    0 | Data: 2.9 GiB [    13s @ 1627 calls/sec ]
+Num Blocks: 24070 | Num Queries: 24134 | Num 429:    0 | Data: 3.1 GiB [    14s @ 1630 calls/sec ]
+Num Blocks: 25916 | Num Queries: 25980 | Num 429:    0 | Data: 3.4 GiB [    15s @ 1644 calls/sec ]
+Num Blocks: 27722 | Num Queries: 27786 | Num 429:    0 | Data: 3.6 GiB [    16s @ 1654 calls/sec ]
+Num Blocks: 29505 | Num Queries: 29569 | Num 429:    0 | Data: 3.8 GiB [    17s @ 1662 calls/sec ]
+Num Blocks: 31272 | Num Queries: 31336 | Num 429:    0 | Data: 4.0 GiB [    18s @ 1667 calls/sec ]
+Num Blocks: 33078 | Num Queries: 33142 | Num 429:    0 | Data: 4.3 GiB [    19s @ 1675 calls/sec ]
+Num Blocks: 34868 | Num Queries: 34932 | Num 429:    0 | Data: 4.5 GiB [    20s @ 1680 calls/sec ]
+Num Blocks: 36609 | Num Queries: 36673 | Num 429:    0 | Data: 4.7 GiB [    21s @ 1683 calls/sec ]
+Num Blocks: 38319 | Num Queries: 38383 | Num 429:    0 | Data: 4.9 GiB [    22s @ 1685 calls/sec ]
+Num Blocks: 40081 | Num Queries: 40145 | Num 429:    0 | Data: 5.2 GiB [    23s @ 1688 calls/sec ]
+Num Blocks: 41768 | Num Queries: 41832 | Num 429:    0 | Data: 5.4 GiB [    24s @ 1688 calls/sec ]
+Num Blocks: 43544 | Num Queries: 43607 | Num 429:    0 | Data: 5.6 GiB [    25s @ 1691 calls/sec ]
+Num Blocks: 45364 | Num Queries: 45428 | Num 429:    0 | Data: 5.9 GiB [    26s @ 1696 calls/sec ]
+Num Blocks: 47095 | Num Queries: 47159 | Num 429:    0 | Data: 6.1 GiB [    27s @ 1698 calls/sec ]
+Num Blocks: 48788 | Num Queries: 48852 | Num 429:    0 | Data: 6.3 GiB [    28s @ 1697 calls/sec ]
+Num Blocks: 50045 | Num Queries: 50109 | Num 429:    0 | Data: 6.5 GiB [    29s @ 1682 calls/sec ]
+Num Blocks: 51886 | Num Queries: 51950 | Num 429:    0 | Data: 6.7 GiB [    30s @ 1687 calls/sec ]
+Num Blocks: 53634 | Num Queries: 53698 | Num 429:    0 | Data: 7.0 GiB [    31s @ 1689 calls/sec ]
+Num Blocks: 55351 | Num Queries: 55415 | Num 429:    0 | Data: 7.2 GiB [    32s @ 1690 calls/sec ]
+Num Blocks: 57127 | Num Queries: 57191 | Num 429:    0 | Data: 7.4 GiB [    33s @ 1693 calls/sec ]
+Num Blocks: 58875 | Num Queries: 58939 | Num 429:    0 | Data: 7.6 GiB [    34s @ 1694 calls/sec ]
+Num Blocks: 60601 | Num Queries: 60665 | Num 429:    0 | Data: 7.9 GiB [    35s @ 1695 calls/sec ]
+Num Blocks: 62358 | Num Queries: 62422 | Num 429:    0 | Data: 8.1 GiB [    36s @ 1697 calls/sec ]
+Num Blocks: 64103 | Num Queries: 64167 | Num 429:    0 | Data: 8.3 GiB [    37s @ 1698 calls/sec ]
+Num Blocks: 65839 | Num Queries: 65903 | Num 429:    0 | Data: 8.5 GiB [    38s @ 1699 calls/sec ]
+Num Blocks: 67624 | Num Queries: 67688 | Num 429:    0 | Data: 8.8 GiB [    39s @ 1701 calls/sec ]
+Num Blocks: 69436 | Num Queries: 69500 | Num 429:    0 | Data: 9.0 GiB [    40s @ 1704 calls/sec ]
+Num Blocks: 71253 | Num Queries: 71317 | Num 429:    0 | Data: 9.2 GiB [    41s @ 1707 calls/sec ]
+Num Blocks: 72956 | Num Queries: 73020 | Num 429:    0 | Data: 9.4 GiB [    42s @ 1707 calls/sec ]
+Num Blocks: 74790 | Num Queries: 74854 | Num 429:    0 | Data: 9.7 GiB [    43s @ 1710 calls/sec ]
+Num Blocks: 76592 | Num Queries: 76656 | Num 429:    0 | Data: 9.9 GiB [    44s @ 1712 calls/sec ]
+Num Blocks: 78392 | Num Queries: 78456 | Num 429:    0 | Data: 10 GiB [    45s @ 1714 calls/sec ]
+Num Blocks: 80131 | Num Queries: 80195 | Num 429:    0 | Data: 10 GiB [    46s @ 1714 calls/sec ]
+Num Blocks: 81858 | Num Queries: 81922 | Num 429:    0 | Data: 11 GiB [    47s @ 1715 calls/sec ]
+Num Blocks: 83603 | Num Queries: 83667 | Num 429:    0 | Data: 11 GiB [    48s @ 1715 calls/sec ]
+Num Blocks: 85340 | Num Queries: 85404 | Num 429:    0 | Data: 11 GiB [    49s @ 1716 calls/sec ]
+Num Blocks: 87122 | Num Queries: 87186 | Num 429:    0 | Data: 11 GiB [    50s @ 1717 calls/sec ]
+Num Blocks: 88862 | Num Queries: 88926 | Num 429:    0 | Data: 12 GiB [    51s @ 1717 calls/sec ]
+Num Blocks: 90645 | Num Queries: 90709 | Num 429:    0 | Data: 12 GiB [    52s @ 1719 calls/sec ]
+Num Blocks: 92403 | Num Queries: 92467 | Num 429:    0 | Data: 12 GiB [    53s @ 1719 calls/sec ]
+Num Blocks: 94192 | Num Queries: 94256 | Num 429:    0 | Data: 12 GiB [    54s @ 1721 calls/sec ]
+Num Blocks: 95914 | Num Queries: 95978 | Num 429:    0 | Data: 12 GiB [    55s @ 1721 calls/sec ]
+Num Blocks: 97705 | Num Queries: 97769 | Num 429:    0 | Data: 13 GiB [    56s @ 1722 calls/sec ]
+Num Blocks: 99404 | Num Queries: 99468 | Num 429:    0 | Data: 13 GiB [    57s @ 1722 calls/sec ]
+Num Blocks: 100418 | Num Queries: 100482 | Num 429:    0 | Data: 13 GiB [    58s @ 1709 calls/sec ]
+Num Blocks: 102151 | Num Queries: 102215 | Num 429:    0 | Data: 13 GiB [    59s @ 1710 calls/sec ]
+Num Blocks: 103875 | Num Queries: 103938 | Num 429:    0 | Data: 13 GiB [   1m0s @ 1710 calls/sec ]
+-----------------------
+Latency in milliseconds
+ -- Histogram: 
+Min value: 11 
+Max value: 989 
+Count: 103938 
+50p: 32.00 
+75p: 48.00 
+90p: 64.00 
+[8, 16) 4276 4.11% 4.11%
+[16, 32) 60413 58.12% 62.24%
+[32, 48) 26582 25.57% 87.81%
+[48, 64) 6951 6.69% 94.50%
+[64, 80) 1870 1.80% 96.30%
+[80, 96) 593 0.57% 96.87%
+[96, 112) 212 0.20% 97.07%
+[112, 128) 112 0.11% 97.18%
+[128, 144) 51 0.05% 97.23%
+[144, 160) 21 0.02% 97.25%
+[160, 176) 27 0.03% 97.28%
+[176, 192) 20 0.02% 97.30%
+[192, 208) 16 0.02% 97.31%
+[208, 224) 32 0.03% 97.34%
+[224, 240) 1130 1.09% 98.43%
+[240, 256) 893 0.86% 99.29%
+[256, 272) 400 0.38% 99.67%
+[272, 288) 169 0.16% 99.84%
+[288, 304) 51 0.05% 99.89%
+[304, 320) 26 0.03% 99.91%
+[320, 336) 24 0.02% 99.93%
+[336, 352) 11 0.01% 99.94%
+[352, 368) 4 0.00% 99.95%
+[368, 384) 5 0.00% 99.95%
+[384, 400) 2 0.00% 99.95%
+[400, 416) 2 0.00% 99.96%
+[432, 448) 11 0.01% 99.97%
+[448, 464) 13 0.01% 99.98%
+[464, 480) 10 0.01% 99.99%
+[480, 496) 4 0.00% 99.99%
+[496, 512) 4 0.00% 100.00%
+[528, 544) 1 0.00% 100.00%
+[688, 704) 1 0.00% 100.00%
+[976, 992) 1 0.00% 100.00%
+ --
+
+-----------------------
+Resp size in bytes
+ -- Histogram: 
+Min value: 1479 
+Max value: 2334785 
+Count: 103938 
+50p: 131072.00 
+75p: 262144.00 
+90p: 262144.00 
+[1024, 2048) 2037 1.96% 1.96%
+[2048, 4096) 564 0.54% 2.50%
+[4096, 8192) 996 0.96% 3.46%
+[8192, 16384) 2221 2.14% 5.60%
+[16384, 32768) 5083 4.89% 10.49%
+[32768, 65536) 12406 11.94% 22.42%
+[65536, 131072) 34803 33.48% 55.91%
+[131072, 262144) 36173 34.80% 90.71%
+[262144, 524288) 8517 8.19% 98.91%
+[524288, 1048576) 1125 1.08% 99.99%
+[1.0 MiB, infinity) 13 0.01% 100.00%
+ --
+
+Num Blocks: 103938 | Num Queries: 103938 | Num 429:    0 | Data: 13 GiB [   1m1s @ 1683 calls/sec ]
+Num Blocks: 103938 | Num Queries: 103938 | Num 429:    0 | Data: 13 GiB [   1m2s @ 1656 calls/sec ]
+Method: eth_getBlockByNumber | DONE
+Writing samples to file: ./sample-eth_getBlockByNumber-2964668030
+Connection established with response [0, 25ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 0
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 1
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 2
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 3
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 4
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 5
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 6
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 7
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 8
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 9
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 10
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 11
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 12
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 13
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 14
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 15
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 16
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 17
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 18
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 19
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 20
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 21
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 22
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 23
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 24
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 25
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 26
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 27
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 28
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 29
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 30
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 31
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 32
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 33
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 34
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 35
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 36
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 37
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 38
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 39
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 40
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 41
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 42
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 43
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 44
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 45
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 46
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 47
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 48
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 49
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 50
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 51
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 52
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 53
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 54
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 55
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 56
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 57
+Connection established with response [0, 28ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 58
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 59
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 60
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 61
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 62
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 63
+Method: eth_getBlockByHash | START
+Time now: 2022-12-07 01:22:19 +0000 UTC . Ending at 2022-12-07 01:23:19 +0000 UTC
+start Idx: 999244
+Num Blocks:  1748 | Num Queries: 1812 | Num 429:    0 | Data: 229 MiB [     1s @ 0 calls/sec ]
+Num Blocks:  3536 | Num Queries: 3600 | Num 429:    0 | Data: 472 MiB [     2s @ 893 calls/sec ]
+Num Blocks:  5291 | Num Queries: 5355 | Num 429:    0 | Data: 706 MiB [     3s @ 1181 calls/sec ]
+Num Blocks:  7004 | Num Queries: 7068 | Num 429:    0 | Data: 939 MiB [     4s @ 1313 calls/sec ]
+Num Blocks:  8723 | Num Queries: 8787 | Num 429:    0 | Data: 1.1 GiB [     5s @ 1395 calls/sec ]
+Num Blocks: 10474 | Num Queries: 10538 | Num 429:    0 | Data: 1.4 GiB [     6s @ 1454 calls/sec ]
+Num Blocks: 12286 | Num Queries: 12350 | Num 429:    0 | Data: 1.6 GiB [     7s @ 1505 calls/sec ]
+Num Blocks: 14085 | Num Queries: 14149 | Num 429:    0 | Data: 1.8 GiB [     8s @ 1542 calls/sec ]
+Num Blocks: 15755 | Num Queries: 15819 | Num 429:    0 | Data: 2.1 GiB [     9s @ 1556 calls/sec ]
+Num Blocks: 17462 | Num Queries: 17526 | Num 429:    0 | Data: 2.3 GiB [    10s @ 1571 calls/sec ]
+Num Blocks: 19111 | Num Queries: 19175 | Num 429:    0 | Data: 2.5 GiB [    11s @ 1578 calls/sec ]
+Num Blocks: 20876 | Num Queries: 20940 | Num 429:    0 | Data: 2.7 GiB [    12s @ 1594 calls/sec ]
+Num Blocks: 22650 | Num Queries: 22714 | Num 429:    0 | Data: 3.0 GiB [    13s @ 1607 calls/sec ]
+Num Blocks: 24372 | Num Queries: 24436 | Num 429:    0 | Data: 3.2 GiB [    14s @ 1616 calls/sec ]
+Num Blocks: 26140 | Num Queries: 26204 | Num 429:    0 | Data: 3.4 GiB [    15s @ 1626 calls/sec ]
+Num Blocks: 27882 | Num Queries: 27946 | Num 429:    0 | Data: 3.6 GiB [    16s @ 1633 calls/sec ]
+Num Blocks: 29623 | Num Queries: 29687 | Num 429:    0 | Data: 3.9 GiB [    17s @ 1639 calls/sec ]
+Num Blocks: 31331 | Num Queries: 31395 | Num 429:    0 | Data: 4.1 GiB [    18s @ 1643 calls/sec ]
+Num Blocks: 33062 | Num Queries: 33126 | Num 429:    0 | Data: 4.3 GiB [    19s @ 1647 calls/sec ]
+Num Blocks: 34780 | Num Queries: 34844 | Num 429:    0 | Data: 4.5 GiB [    20s @ 1651 calls/sec ]
+Num Blocks: 36532 | Num Queries: 36596 | Num 429:    0 | Data: 4.8 GiB [    21s @ 1656 calls/sec ]
+Num Blocks: 38304 | Num Queries: 38368 | Num 429:    0 | Data: 5.0 GiB [    22s @ 1661 calls/sec ]
+Num Blocks: 40064 | Num Queries: 40128 | Num 429:    0 | Data: 5.2 GiB [    23s @ 1665 calls/sec ]
+Num Blocks: 41760 | Num Queries: 41824 | Num 429:    0 | Data: 5.5 GiB [    24s @ 1666 calls/sec ]
+Num Blocks: 43484 | Num Queries: 43548 | Num 429:    0 | Data: 5.7 GiB [    25s @ 1669 calls/sec ]
+Num Blocks: 45181 | Num Queries: 45245 | Num 429:    0 | Data: 5.9 GiB [    26s @ 1670 calls/sec ]
+Num Blocks: 46953 | Num Queries: 47017 | Num 429:    0 | Data: 6.1 GiB [    27s @ 1674 calls/sec ]
+Num Blocks: 48695 | Num Queries: 48759 | Num 429:    0 | Data: 6.4 GiB [    28s @ 1676 calls/sec ]
+Num Blocks: 50428 | Num Queries: 50492 | Num 429:    0 | Data: 6.6 GiB [    29s @ 1678 calls/sec ]
+Num Blocks: 52175 | Num Queries: 52239 | Num 429:    0 | Data: 6.8 GiB [    30s @ 1680 calls/sec ]
+Num Blocks: 53920 | Num Queries: 53984 | Num 429:    0 | Data: 7.0 GiB [    31s @ 1683 calls/sec ]
+Num Blocks: 55652 | Num Queries: 55716 | Num 429:    0 | Data: 7.3 GiB [    32s @ 1684 calls/sec ]
+Num Blocks: 57367 | Num Queries: 57431 | Num 429:    0 | Data: 7.5 GiB [    33s @ 1685 calls/sec ]
+Num Blocks: 59075 | Num Queries: 59139 | Num 429:    0 | Data: 7.7 GiB [    34s @ 1686 calls/sec ]
+Num Blocks: 60830 | Num Queries: 60894 | Num 429:    0 | Data: 8.0 GiB [    35s @ 1688 calls/sec ]
+Num Blocks: 62641 | Num Queries: 62705 | Num 429:    0 | Data: 8.2 GiB [    36s @ 1691 calls/sec ]
+Num Blocks: 64411 | Num Queries: 64475 | Num 429:    0 | Data: 8.4 GiB [    37s @ 1693 calls/sec ]
+Num Blocks: 66070 | Num Queries: 66134 | Num 429:    0 | Data: 8.6 GiB [    38s @ 1692 calls/sec ]
+Num Blocks: 67796 | Num Queries: 67860 | Num 429:    0 | Data: 8.9 GiB [    39s @ 1693 calls/sec ]
+Num Blocks: 69504 | Num Queries: 69568 | Num 429:    0 | Data: 9.1 GiB [    40s @ 1693 calls/sec ]
+Num Blocks: 71211 | Num Queries: 71275 | Num 429:    0 | Data: 9.3 GiB [    41s @ 1694 calls/sec ]
+Num Blocks: 72975 | Num Queries: 73039 | Num 429:    0 | Data: 9.5 GiB [    42s @ 1695 calls/sec ]
+Num Blocks: 74696 | Num Queries: 74760 | Num 429:    0 | Data: 9.8 GiB [    43s @ 1696 calls/sec ]
+Num Blocks: 76280 | Num Queries: 76344 | Num 429:    0 | Data: 10 GiB [    44s @ 1693 calls/sec ]
+Num Blocks: 78146 | Num Queries: 78210 | Num 429:    0 | Data: 10 GiB [    45s @ 1697 calls/sec ]
+Num Blocks: 79886 | Num Queries: 79950 | Num 429:    0 | Data: 10 GiB [    46s @ 1698 calls/sec ]
+Num Blocks: 81596 | Num Queries: 81660 | Num 429:    0 | Data: 11 GiB [    47s @ 1698 calls/sec ]
+Num Blocks: 83328 | Num Queries: 83392 | Num 429:    0 | Data: 11 GiB [    48s @ 1699 calls/sec ]
+Num Blocks: 85050 | Num Queries: 85114 | Num 429:    0 | Data: 11 GiB [    49s @ 1700 calls/sec ]
+Num Blocks: 86838 | Num Queries: 86902 | Num 429:    0 | Data: 11 GiB [    50s @ 1701 calls/sec ]
+Num Blocks: 88613 | Num Queries: 88677 | Num 429:    0 | Data: 12 GiB [    51s @ 1703 calls/sec ]
+Num Blocks: 90329 | Num Queries: 90393 | Num 429:    0 | Data: 12 GiB [    52s @ 1703 calls/sec ]
+Num Blocks: 92022 | Num Queries: 92086 | Num 429:    0 | Data: 12 GiB [    53s @ 1703 calls/sec ]
+Num Blocks: 93734 | Num Queries: 93798 | Num 429:    0 | Data: 12 GiB [    54s @ 1703 calls/sec ]
+Num Blocks: 95460 | Num Queries: 95524 | Num 429:    0 | Data: 12 GiB [    55s @ 1703 calls/sec ]
+Num Blocks: 97221 | Num Queries: 97285 | Num 429:    0 | Data: 13 GiB [    56s @ 1704 calls/sec ]
+Num Blocks: 98928 | Num Queries: 98992 | Num 429:    0 | Data: 13 GiB [    57s @ 1704 calls/sec ]
+Num Blocks: 100680 | Num Queries: 100744 | Num 429:    0 | Data: 13 GiB [    58s @ 1705 calls/sec ]
+Num Blocks: 102446 | Num Queries: 102510 | Num 429:    0 | Data: 13 GiB [    59s @ 1706 calls/sec ]
+Num Blocks: 104186 | Num Queries: 104238 | Num 429:    0 | Data: 14 GiB [   1m0s @ 1707 calls/sec ]
+-----------------------
+Latency in milliseconds
+ -- Histogram: 
+Min value: 11 
+Max value: 723 
+Count: 104238 
+50p: 32.00 
+75p: 48.00 
+90p: 64.00 
+[8, 16) 5760 5.53% 5.53%
+[16, 32) 60457 58.00% 63.52%
+[32, 48) 26070 25.01% 88.53%
+[48, 64) 6567 6.30% 94.83%
+[64, 80) 1576 1.51% 96.35%
+[80, 96) 384 0.37% 96.72%
+[96, 112) 143 0.14% 96.85%
+[112, 128) 44 0.04% 96.89%
+[128, 144) 16 0.02% 96.91%
+[144, 160) 10 0.01% 96.92%
+[160, 176) 7 0.01% 96.93%
+[176, 192) 1 0.00% 96.93%
+[192, 208) 2 0.00% 96.93%
+[208, 224) 40 0.04% 96.97%
+[224, 240) 1433 1.37% 98.34%
+[240, 256) 967 0.93% 99.27%
+[256, 272) 382 0.37% 99.64%
+[272, 288) 169 0.16% 99.80%
+[288, 304) 68 0.07% 99.86%
+[304, 320) 26 0.02% 99.89%
+[320, 336) 9 0.01% 99.90%
+[336, 352) 3 0.00% 99.90%
+[432, 448) 33 0.03% 99.93%
+[448, 464) 27 0.03% 99.96%
+[464, 480) 20 0.02% 99.98%
+[480, 496) 6 0.01% 99.98%
+[496, 512) 6 0.01% 99.99%
+[512, 528) 4 0.00% 99.99%
+[528, 544) 1 0.00% 99.99%
+[576, 592) 1 0.00% 99.99%
+[640, 656) 1 0.00% 100.00%
+[656, 672) 4 0.00% 100.00%
+[720, 736) 1 0.00% 100.00%
+ --
+
+-----------------------
+Resp size in bytes
+ -- Histogram: 
+Min value: 1479 
+Max value: 1387713 
+Count: 104238 
+50p: 131072.00 
+75p: 262144.00 
+90p: 262144.00 
+[1024, 2048) 1902 1.82% 1.82%
+[2048, 4096) 537 0.52% 2.34%
+[4096, 8192) 1059 1.02% 3.36%
+[8192, 16384) 2260 2.17% 5.52%
+[16384, 32768) 4962 4.76% 10.28%
+[32768, 65536) 12089 11.60% 21.88%
+[65536, 131072) 34925 33.51% 55.39%
+[131072, 262144) 36398 34.92% 90.30%
+[262144, 524288) 8957 8.59% 98.90%
+[524288, 1048576) 1129 1.08% 99.98%
+[1.0 MiB, infinity) 20 0.02% 100.00%
+ --
+
+Num Blocks: 104238 | Num Queries: 104238 | Num 429:    0 | Data: 14 GiB [   1m1s @ 1679 calls/sec ]
+Num Blocks: 104238 | Num Queries: 104238 | Num 429:    0 | Data: 14 GiB [   1m2s @ 1652 calls/sec ]
+Method: eth_getBlockByHash | DONE
+Writing samples to file: ./sample-eth_getBlockByHash-2792136343
+Connection established with response [0, 26ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 0
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 1
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 2
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 3
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 4
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 5
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 6
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 7
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 8
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 9
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 10
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 11
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 12
+Connection established with response [0, 18ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 13
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 14
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 15
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 16
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 17
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 18
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 19
+Connection established with response [0, 18ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 20
+Connection established with response [0, 20ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 21
+Connection established with response [0, 18ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 22
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 23
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 24
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 25
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 26
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 27
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 28
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 29
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 30
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 31
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 32
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 33
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 34
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 35
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 36
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 37
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 38
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 39
+Connection established with response [0, 20ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 40
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 41
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 42
+Connection established with response [0, 19ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 43
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 44
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 45
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 46
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 47
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 48
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 49
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 50
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 51
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 52
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 53
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 54
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 55
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 56
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 57
+Connection established with response [0, 31ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 58
+Connection established with response [0, 18ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 59
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 60
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 61
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 62
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 63
+Method: eth_getTransactionByHash | START
+Time now: 2022-12-07 01:23:24 +0000 UTC . Ending at 2022-12-07 01:24:24 +0000 UTC
+start Idx: 371416
+Num Blocks:  4806 | Num Queries: 4870 | Num 429:    0 | Data: 4.5 MiB [     1s @ 0 calls/sec ]
+Num Blocks:  9660 | Num Queries: 9724 | Num 429:    0 | Data: 9.2 MiB [     2s @ 2426 calls/sec ]
+Num Blocks: 14536 | Num Queries: 14600 | Num 429:    0 | Data: 14 MiB [     3s @ 3242 calls/sec ]
+Num Blocks: 19391 | Num Queries: 19455 | Num 429:    0 | Data: 18 MiB [     4s @ 3646 calls/sec ]
+Num Blocks: 24290 | Num Queries: 24354 | Num 429:    0 | Data: 22 MiB [     5s @ 3896 calls/sec ]
+Num Blocks: 29266 | Num Queries: 29330 | Num 429:    0 | Data: 27 MiB [     6s @ 4076 calls/sec ]
+Num Blocks: 34227 | Num Queries: 34291 | Num 429:    0 | Data: 32 MiB [     7s @ 4202 calls/sec ]
+Num Blocks: 39146 | Num Queries: 39210 | Num 429:    0 | Data: 37 MiB [     8s @ 4292 calls/sec ]
+Num Blocks: 44080 | Num Queries: 44144 | Num 429:    0 | Data: 42 MiB [     9s @ 4363 calls/sec ]
+Num Blocks: 49018 | Num Queries: 49082 | Num 429:    0 | Data: 46 MiB [    10s @ 4421 calls/sec ]
+Num Blocks: 53982 | Num Queries: 54046 | Num 429:    0 | Data: 51 MiB [    11s @ 4470 calls/sec ]
+Num Blocks: 58902 | Num Queries: 58966 | Num 429:    0 | Data: 55 MiB [    12s @ 4507 calls/sec ]
+Num Blocks: 63885 | Num Queries: 63949 | Num 429:    0 | Data: 60 MiB [    13s @ 4544 calls/sec ]
+Num Blocks: 68826 | Num Queries: 68890 | Num 429:    0 | Data: 64 MiB [    14s @ 4572 calls/sec ]
+Num Blocks: 73796 | Num Queries: 73860 | Num 429:    0 | Data: 69 MiB [    15s @ 4599 calls/sec ]
+Num Blocks: 78792 | Num Queries: 78856 | Num 429:    0 | Data: 74 MiB [    16s @ 4624 calls/sec ]
+Num Blocks: 83823 | Num Queries: 83887 | Num 429:    0 | Data: 78 MiB [    17s @ 4647 calls/sec ]
+Num Blocks: 88719 | Num Queries: 88783 | Num 429:    0 | Data: 82 MiB [    18s @ 4661 calls/sec ]
+Num Blocks: 93696 | Num Queries: 93760 | Num 429:    0 | Data: 87 MiB [    19s @ 4678 calls/sec ]
+Num Blocks: 98540 | Num Queries: 98604 | Num 429:    0 | Data: 91 MiB [    20s @ 4686 calls/sec ]
+Num Blocks: 103362 | Num Queries: 103426 | Num 429:    0 | Data: 96 MiB [    21s @ 4693 calls/sec ]
+Num Blocks: 108259 | Num Queries: 108323 | Num 429:    0 | Data: 100 MiB [    22s @ 4702 calls/sec ]
+Num Blocks: 113053 | Num Queries: 113117 | Num 429:    0 | Data: 105 MiB [    23s @ 4706 calls/sec ]
+Num Blocks: 117885 | Num Queries: 117949 | Num 429:    0 | Data: 109 MiB [    24s @ 4711 calls/sec ]
+Num Blocks: 122770 | Num Queries: 122834 | Num 429:    0 | Data: 114 MiB [    25s @ 4718 calls/sec ]
+Num Blocks: 127706 | Num Queries: 127770 | Num 429:    0 | Data: 118 MiB [    26s @ 4726 calls/sec ]
+Num Blocks: 132523 | Num Queries: 132587 | Num 429:    0 | Data: 123 MiB [    27s @ 4730 calls/sec ]
+Num Blocks: 137460 | Num Queries: 137524 | Num 429:    0 | Data: 128 MiB [    28s @ 4737 calls/sec ]
+Num Blocks: 142305 | Num Queries: 142369 | Num 429:    0 | Data: 132 MiB [    29s @ 4741 calls/sec ]
+Num Blocks: 147238 | Num Queries: 147302 | Num 429:    0 | Data: 137 MiB [    30s @ 4747 calls/sec ]
+Num Blocks: 152219 | Num Queries: 152283 | Num 429:    0 | Data: 142 MiB [    31s @ 4755 calls/sec ]
+Num Blocks: 157177 | Num Queries: 157241 | Num 429:    0 | Data: 146 MiB [    32s @ 4761 calls/sec ]
+Num Blocks: 162113 | Num Queries: 162177 | Num 429:    0 | Data: 150 MiB [    33s @ 4766 calls/sec ]
+Num Blocks: 167083 | Num Queries: 167147 | Num 429:    0 | Data: 155 MiB [    34s @ 4772 calls/sec ]
+Num Blocks: 172008 | Num Queries: 172072 | Num 429:    0 | Data: 160 MiB [    35s @ 4777 calls/sec ]
+Num Blocks: 176921 | Num Queries: 176985 | Num 429:    0 | Data: 165 MiB [    36s @ 4780 calls/sec ]
+Num Blocks: 181937 | Num Queries: 182001 | Num 429:    0 | Data: 170 MiB [    37s @ 4787 calls/sec ]
+Num Blocks: 186888 | Num Queries: 186952 | Num 429:    0 | Data: 175 MiB [    38s @ 4791 calls/sec ]
+Num Blocks: 191660 | Num Queries: 191724 | Num 429:    0 | Data: 179 MiB [    39s @ 4791 calls/sec ]
+Num Blocks: 196641 | Num Queries: 196705 | Num 429:    0 | Data: 183 MiB [    40s @ 4795 calls/sec ]
+Num Blocks: 201450 | Num Queries: 201514 | Num 429:    0 | Data: 188 MiB [    41s @ 4796 calls/sec ]
+Num Blocks: 206453 | Num Queries: 206516 | Num 429:    0 | Data: 192 MiB [    42s @ 4801 calls/sec ]
+Num Blocks: 211460 | Num Queries: 211524 | Num 429:    0 | Data: 197 MiB [    43s @ 4805 calls/sec ]
+Num Blocks: 216499 | Num Queries: 216563 | Num 429:    0 | Data: 202 MiB [    44s @ 4811 calls/sec ]
+Num Blocks: 221450 | Num Queries: 221514 | Num 429:    0 | Data: 206 MiB [    45s @ 4814 calls/sec ]
+Num Blocks: 226412 | Num Queries: 226476 | Num 429:    0 | Data: 210 MiB [    46s @ 4817 calls/sec ]
+Num Blocks: 231514 | Num Queries: 231578 | Num 429:    0 | Data: 215 MiB [    47s @ 4823 calls/sec ]
+Num Blocks: 236461 | Num Queries: 236525 | Num 429:    0 | Data: 220 MiB [    48s @ 4826 calls/sec ]
+Num Blocks: 241485 | Num Queries: 241549 | Num 429:    0 | Data: 224 MiB [    49s @ 4830 calls/sec ]
+Num Blocks: 246496 | Num Queries: 246560 | Num 429:    0 | Data: 229 MiB [    50s @ 4833 calls/sec ]
+Num Blocks: 251523 | Num Queries: 251587 | Num 429:    0 | Data: 233 MiB [    51s @ 4837 calls/sec ]
+Num Blocks: 256460 | Num Queries: 256524 | Num 429:    0 | Data: 238 MiB [    52s @ 4839 calls/sec ]
+Num Blocks: 261403 | Num Queries: 261467 | Num 429:    0 | Data: 242 MiB [    53s @ 4841 calls/sec ]
+Num Blocks: 266315 | Num Queries: 266378 | Num 429:    0 | Data: 247 MiB [    54s @ 4842 calls/sec ]
+Num Blocks: 271152 | Num Queries: 271216 | Num 429:    0 | Data: 252 MiB [    55s @ 4842 calls/sec ]
+Num Blocks: 275953 | Num Queries: 276017 | Num 429:    0 | Data: 257 MiB [    56s @ 4841 calls/sec ]
+Num Blocks: 280851 | Num Queries: 280915 | Num 429:    0 | Data: 261 MiB [    57s @ 4842 calls/sec ]
+Num Blocks: 285805 | Num Queries: 285869 | Num 429:    0 | Data: 266 MiB [    58s @ 4844 calls/sec ]
+Num Blocks: 290781 | Num Queries: 290845 | Num 429:    0 | Data: 271 MiB [    59s @ 4847 calls/sec ]
+Num Blocks: 295735 | Num Queries: 295797 | Num 429:    0 | Data: 275 MiB [   1m0s @ 4848 calls/sec ]
+-----------------------
+Latency in milliseconds
+ -- Histogram: 
+Min value: 10 
+Max value: 305 
+Count: 295797 
+50p: 16.00 
+75p: 16.00 
+90p: 16.00 
+[8, 16) 284431 96.16% 96.16%
+[16, 32) 11012 3.72% 99.88%
+[32, 48) 168 0.06% 99.94%
+[48, 64) 167 0.06% 99.99%
+[64, 80) 17 0.01% 100.00%
+[256, 272) 1 0.00% 100.00%
+[304, 320) 1 0.00% 100.00%
+ --
+
+-----------------------
+Resp size in bytes
+ -- Histogram: 
+Min value: 653 
+Max value: 190022 
+Count: 295797 
+50p: 1024.00 
+75p: 1024.00 
+90p: 2048.00 
+[512, 1024) 251302 84.96% 84.96%
+[1024, 2048) 33403 11.29% 96.25%
+[2048, 4096) 5774 1.95% 98.20%
+[4096, 8192) 4628 1.56% 99.77%
+[8192, 16384) 480 0.16% 99.93%
+[16384, 32768) 131 0.04% 99.97%
+[32768, 65536) 56 0.02% 99.99%
+[65536, 131072) 12 0.00% 100.00%
+[131072, 262144) 11 0.00% 100.00%
+ --
+
+Num Blocks: 295797 | Num Queries: 295797 | Num 429:    0 | Data: 275 MiB [   1m1s @ 4770 calls/sec ]
+Num Blocks: 295797 | Num Queries: 295797 | Num 429:    0 | Data: 275 MiB [   1m2s @ 4693 calls/sec ]
+Method: eth_getTransactionByHash | DONE
+Writing samples to file: ./sample-eth_getTransactionByHash-867179279
+Connection established with response [0, 28ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 0
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 1
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 2
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 3
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 4
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 5
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 6
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 7
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 8
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 9
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 10
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 11
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 12
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 13
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 14
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 15
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 16
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 17
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 18
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 19
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 20
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 21
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 22
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 23
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 24
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 25
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 26
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 27
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 28
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 29
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 30
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 31
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 32
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 33
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 34
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 35
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 36
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 37
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 38
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 39
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 40
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 41
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 42
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 43
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 44
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 45
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 46
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 47
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 48
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 49
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 50
+Connection established with response [0, 18ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 51
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 52
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 53
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 54
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 55
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 56
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 57
+Connection established with response [0, 29ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 58
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 59
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 60
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 61
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 62
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 63
+Method: eth_getTransactionReceipt | START
+Time now: 2022-12-07 01:24:28 +0000 UTC . Ending at 2022-12-07 01:25:28 +0000 UTC
+start Idx: 622258
+Num Blocks:  4787 | Num Queries: 4851 | Num 429:    0 | Data: 8.7 MiB [     1s @ 0 calls/sec ]
+Num Blocks:  9754 | Num Queries: 9818 | Num 429:    0 | Data: 17 MiB [     2s @ 2483 calls/sec ]
+Num Blocks: 14754 | Num Queries: 14818 | Num 429:    0 | Data: 26 MiB [     3s @ 3322 calls/sec ]
+Num Blocks: 19632 | Num Queries: 19696 | Num 429:    0 | Data: 35 MiB [     4s @ 3711 calls/sec ]
+Num Blocks: 24563 | Num Queries: 24627 | Num 429:    0 | Data: 44 MiB [     5s @ 3955 calls/sec ]
+Num Blocks: 29485 | Num Queries: 29549 | Num 429:    0 | Data: 54 MiB [     6s @ 4116 calls/sec ]
+Num Blocks: 34408 | Num Queries: 34472 | Num 429:    0 | Data: 62 MiB [     7s @ 4231 calls/sec ]
+Num Blocks: 39396 | Num Queries: 39460 | Num 429:    0 | Data: 71 MiB [     8s @ 4326 calls/sec ]
+Num Blocks: 44376 | Num Queries: 44440 | Num 429:    0 | Data: 80 MiB [     9s @ 4398 calls/sec ]
+Num Blocks: 49285 | Num Queries: 49349 | Num 429:    0 | Data: 89 MiB [    10s @ 4449 calls/sec ]
+Num Blocks: 54266 | Num Queries: 54330 | Num 429:    0 | Data: 98 MiB [    11s @ 4497 calls/sec ]
+Num Blocks: 59174 | Num Queries: 59238 | Num 429:    0 | Data: 107 MiB [    12s @ 4532 calls/sec ]
+Num Blocks: 64220 | Num Queries: 64284 | Num 429:    0 | Data: 116 MiB [    13s @ 4571 calls/sec ]
+Num Blocks: 69232 | Num Queries: 69296 | Num 429:    0 | Data: 125 MiB [    14s @ 4603 calls/sec ]
+Num Blocks: 74249 | Num Queries: 74313 | Num 429:    0 | Data: 134 MiB [    15s @ 4630 calls/sec ]
+Num Blocks: 79173 | Num Queries: 79237 | Num 429:    0 | Data: 143 MiB [    16s @ 4649 calls/sec ]
+Num Blocks: 84208 | Num Queries: 84272 | Num 429:    0 | Data: 151 MiB [    17s @ 4671 calls/sec ]
+Num Blocks: 89227 | Num Queries: 89291 | Num 429:    0 | Data: 160 MiB [    18s @ 4691 calls/sec ]
+Num Blocks: 94222 | Num Queries: 94286 | Num 429:    0 | Data: 169 MiB [    19s @ 4707 calls/sec ]
+Num Blocks: 99223 | Num Queries: 99287 | Num 429:    0 | Data: 179 MiB [    20s @ 4721 calls/sec ]
+Num Blocks: 104150 | Num Queries: 104214 | Num 429:    0 | Data: 188 MiB [    21s @ 4731 calls/sec ]
+Num Blocks: 109102 | Num Queries: 109166 | Num 429:    0 | Data: 196 MiB [    22s @ 4741 calls/sec ]
+Num Blocks: 114099 | Num Queries: 114163 | Num 429:    0 | Data: 205 MiB [    23s @ 4752 calls/sec ]
+Num Blocks: 119131 | Num Queries: 119195 | Num 429:    0 | Data: 216 MiB [    24s @ 4764 calls/sec ]
+Num Blocks: 124093 | Num Queries: 124156 | Num 429:    0 | Data: 225 MiB [    25s @ 4772 calls/sec ]
+Num Blocks: 129142 | Num Queries: 129206 | Num 429:    0 | Data: 234 MiB [    26s @ 4782 calls/sec ]
+Num Blocks: 134121 | Num Queries: 134185 | Num 429:    0 | Data: 243 MiB [    27s @ 4790 calls/sec ]
+Num Blocks: 139057 | Num Queries: 139121 | Num 429:    0 | Data: 251 MiB [    28s @ 4795 calls/sec ]
+Num Blocks: 144066 | Num Queries: 144130 | Num 429:    0 | Data: 260 MiB [    29s @ 4802 calls/sec ]
+Num Blocks: 149070 | Num Queries: 149134 | Num 429:    0 | Data: 269 MiB [    30s @ 4809 calls/sec ]
+Num Blocks: 154033 | Num Queries: 154097 | Num 429:    0 | Data: 278 MiB [    31s @ 4814 calls/sec ]
+Num Blocks: 159017 | Num Queries: 159081 | Num 429:    0 | Data: 287 MiB [    32s @ 4819 calls/sec ]
+Num Blocks: 163991 | Num Queries: 164055 | Num 429:    0 | Data: 296 MiB [    33s @ 4824 calls/sec ]
+Num Blocks: 168949 | Num Queries: 169013 | Num 429:    0 | Data: 305 MiB [    34s @ 4828 calls/sec ]
+Num Blocks: 173976 | Num Queries: 174040 | Num 429:    0 | Data: 314 MiB [    35s @ 4833 calls/sec ]
+Num Blocks: 179002 | Num Queries: 179066 | Num 429:    0 | Data: 323 MiB [    36s @ 4839 calls/sec ]
+Num Blocks: 184055 | Num Queries: 184119 | Num 429:    0 | Data: 332 MiB [    37s @ 4845 calls/sec ]
+Num Blocks: 189096 | Num Queries: 189160 | Num 429:    0 | Data: 341 MiB [    38s @ 4850 calls/sec ]
+Num Blocks: 194042 | Num Queries: 194106 | Num 429:    0 | Data: 350 MiB [    39s @ 4852 calls/sec ]
+Num Blocks: 199083 | Num Queries: 199147 | Num 429:    0 | Data: 359 MiB [    40s @ 4857 calls/sec ]
+Num Blocks: 204106 | Num Queries: 204170 | Num 429:    0 | Data: 368 MiB [    41s @ 4861 calls/sec ]
+Num Blocks: 209149 | Num Queries: 209213 | Num 429:    0 | Data: 377 MiB [    42s @ 4865 calls/sec ]
+Num Blocks: 214135 | Num Queries: 214199 | Num 429:    0 | Data: 386 MiB [    43s @ 4868 calls/sec ]
+Num Blocks: 219184 | Num Queries: 219248 | Num 429:    0 | Data: 396 MiB [    44s @ 4872 calls/sec ]
+Num Blocks: 224207 | Num Queries: 224271 | Num 429:    0 | Data: 404 MiB [    45s @ 4876 calls/sec ]
+Num Blocks: 229285 | Num Queries: 229349 | Num 429:    0 | Data: 413 MiB [    46s @ 4880 calls/sec ]
+Num Blocks: 234340 | Num Queries: 234404 | Num 429:    0 | Data: 422 MiB [    47s @ 4884 calls/sec ]
+Num Blocks: 239323 | Num Queries: 239387 | Num 429:    0 | Data: 431 MiB [    48s @ 4886 calls/sec ]
+Num Blocks: 244424 | Num Queries: 244488 | Num 429:    0 | Data: 441 MiB [    49s @ 4890 calls/sec ]
+Num Blocks: 249445 | Num Queries: 249509 | Num 429:    0 | Data: 449 MiB [    50s @ 4892 calls/sec ]
+Num Blocks: 254531 | Num Queries: 254595 | Num 429:    0 | Data: 459 MiB [    51s @ 4896 calls/sec ]
+Num Blocks: 259650 | Num Queries: 259714 | Num 429:    0 | Data: 469 MiB [    52s @ 4901 calls/sec ]
+Num Blocks: 264757 | Num Queries: 264821 | Num 429:    0 | Data: 479 MiB [    53s @ 4904 calls/sec ]
+Num Blocks: 269781 | Num Queries: 269845 | Num 429:    0 | Data: 488 MiB [    54s @ 4907 calls/sec ]
+Num Blocks: 274686 | Num Queries: 274750 | Num 429:    0 | Data: 497 MiB [    55s @ 4907 calls/sec ]
+Num Blocks: 279729 | Num Queries: 279793 | Num 429:    0 | Data: 505 MiB [    56s @ 4909 calls/sec ]
+Num Blocks: 284801 | Num Queries: 284865 | Num 429:    0 | Data: 514 MiB [    57s @ 4912 calls/sec ]
+Num Blocks: 289793 | Num Queries: 289857 | Num 429:    0 | Data: 523 MiB [    58s @ 4913 calls/sec ]
+Num Blocks: 294855 | Num Queries: 294919 | Num 429:    0 | Data: 532 MiB [    59s @ 4916 calls/sec ]
+Num Blocks: 299841 | Num Queries: 299904 | Num 429:    0 | Data: 541 MiB [   1m0s @ 4917 calls/sec ]
+-----------------------
+Latency in milliseconds
+ -- Histogram: 
+Min value: 10 
+Max value: 263 
+Count: 299904 
+50p: 16.00 
+75p: 16.00 
+90p: 16.00 
+[8, 16) 290473 96.86% 96.86%
+[16, 32) 9258 3.09% 99.94%
+[32, 48) 94 0.03% 99.97%
+[48, 64) 72 0.02% 100.00%
+[64, 80) 6 0.00% 100.00%
+[256, 272) 1 0.00% 100.00%
+ --
+
+-----------------------
+Resp size in bytes
+ -- Histogram: 
+Min value: 953 
+Max value: 602392 
+Count: 299904 
+50p: 2048.00 
+75p: 2048.00 
+90p: 4096.00 
+[512, 1024) 17017 5.67% 5.67%
+[1024, 2048) 229338 76.47% 82.14%
+[2048, 4096) 37444 12.49% 94.63%
+[4096, 8192) 12803 4.27% 98.90%
+[8192, 16384) 2440 0.81% 99.71%
+[16384, 32768) 525 0.18% 99.89%
+[32768, 65536) 200 0.07% 99.95%
+[65536, 131072) 113 0.04% 99.99%
+[131072, 262144) 22 0.01% 100.00%
+[524288, 1048576) 2 0.00% 100.00%
+ --
+
+Num Blocks: 299904 | Num Queries: 299904 | Num 429:    0 | Data: 542 MiB [   1m1s @ 4837 calls/sec ]
+Num Blocks: 299904 | Num Queries: 299904 | Num 429:    0 | Data: 542 MiB [   1m2s @ 4759 calls/sec ]
+Method: eth_getTransactionReceipt | DONE
+Writing samples to file: ./sample-eth_getTransactionReceipt-4133242713
+Connection established with response [0, 26ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 0
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 1
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 2
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 3
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 4
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 5
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 6
+Connection established with response [0, 20ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 55ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 7
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 8
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 9
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 10
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 11
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 12
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 13
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 14
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 15
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 16
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 17
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 18
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 19
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 20
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 21
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 22
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 23
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 24
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 25
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 26
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 27
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 28
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 29
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 30
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 31
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 32
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 21ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 33
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 34
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 35
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 36
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 37
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 38
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 39
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 40
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 41
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 42
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 43
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 44
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 45
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 46
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 47
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 48
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 49
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 50
+Connection established with response [0, 18ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 51
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 52
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 53
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 54
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 55
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 56
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 57
+Connection established with response [0, 33ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 58
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 59
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 60
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 61
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 62
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 63
+Method: eth_getBlockTransactionCountByHash | START
+Time now: 2022-12-07 01:25:33 +0000 UTC . Ending at 2022-12-07 01:26:33 +0000 UTC
+start Idx: 845662
+Num Blocks:  4720 | Num Queries: 4784 | Num 429:    0 | Data: 212 KiB [     1s @ 0 calls/sec ]
+Num Blocks:  9504 | Num Queries: 9568 | Num 429:    0 | Data: 427 KiB [     2s @ 2391 calls/sec ]
+Num Blocks: 14239 | Num Queries: 14303 | Num 429:    0 | Data: 640 KiB [     3s @ 3173 calls/sec ]
+Num Blocks: 18968 | Num Queries: 19032 | Num 429:    0 | Data: 853 KiB [     4s @ 3562 calls/sec ]
+Num Blocks: 23677 | Num Queries: 23741 | Num 429:    0 | Data: 1.0 MiB [     5s @ 3791 calls/sec ]
+Num Blocks: 28437 | Num Queries: 28501 | Num 429:    0 | Data: 1.2 MiB [     6s @ 3952 calls/sec ]
+Num Blocks: 33282 | Num Queries: 33346 | Num 429:    0 | Data: 1.5 MiB [     7s @ 4080 calls/sec ]
+Num Blocks: 38101 | Num Queries: 38165 | Num 429:    0 | Data: 1.7 MiB [     8s @ 4172 calls/sec ]
+Num Blocks: 42867 | Num Queries: 42931 | Num 429:    0 | Data: 1.9 MiB [     9s @ 4238 calls/sec ]
+Num Blocks: 47618 | Num Queries: 47682 | Num 429:    0 | Data: 2.1 MiB [    10s @ 4289 calls/sec ]
+Num Blocks: 52363 | Num Queries: 52427 | Num 429:    0 | Data: 2.3 MiB [    11s @ 4331 calls/sec ]
+Num Blocks: 57207 | Num Queries: 57271 | Num 429:    0 | Data: 2.5 MiB [    12s @ 4373 calls/sec ]
+Num Blocks: 61963 | Num Queries: 62027 | Num 429:    0 | Data: 2.7 MiB [    13s @ 4403 calls/sec ]
+Num Blocks: 66807 | Num Queries: 66871 | Num 429:    0 | Data: 2.9 MiB [    14s @ 4434 calls/sec ]
+Num Blocks: 71584 | Num Queries: 71648 | Num 429:    0 | Data: 3.1 MiB [    15s @ 4457 calls/sec ]
+Num Blocks: 76412 | Num Queries: 76476 | Num 429:    0 | Data: 3.4 MiB [    16s @ 4480 calls/sec ]
+Num Blocks: 81196 | Num Queries: 81260 | Num 429:    0 | Data: 3.6 MiB [    17s @ 4498 calls/sec ]
+Num Blocks: 85995 | Num Queries: 86059 | Num 429:    0 | Data: 3.8 MiB [    18s @ 4515 calls/sec ]
+Num Blocks: 90901 | Num Queries: 90965 | Num 429:    0 | Data: 4.0 MiB [    19s @ 4535 calls/sec ]
+Num Blocks: 95711 | Num Queries: 95775 | Num 429:    0 | Data: 4.2 MiB [    20s @ 4549 calls/sec ]
+Num Blocks: 100557 | Num Queries: 100621 | Num 429:    0 | Data: 4.4 MiB [    21s @ 4563 calls/sec ]
+Num Blocks: 105332 | Num Queries: 105396 | Num 429:    0 | Data: 4.6 MiB [    22s @ 4573 calls/sec ]
+Num Blocks: 109773 | Num Queries: 109837 | Num 429:    0 | Data: 4.8 MiB [    23s @ 4567 calls/sec ]
+Num Blocks: 114532 | Num Queries: 114596 | Num 429:    0 | Data: 5.0 MiB [    24s @ 4575 calls/sec ]
+Num Blocks: 119004 | Num Queries: 119068 | Num 429:    0 | Data: 5.2 MiB [    25s @ 4571 calls/sec ]
+Num Blocks: 123299 | Num Queries: 123363 | Num 429:    0 | Data: 5.4 MiB [    26s @ 4560 calls/sec ]
+Num Blocks: 128102 | Num Queries: 128166 | Num 429:    0 | Data: 5.6 MiB [    27s @ 4569 calls/sec ]
+Num Blocks: 132900 | Num Queries: 132964 | Num 429:    0 | Data: 5.8 MiB [    28s @ 4577 calls/sec ]
+Num Blocks: 137748 | Num Queries: 137812 | Num 429:    0 | Data: 6.0 MiB [    29s @ 4587 calls/sec ]
+Num Blocks: 142626 | Num Queries: 142690 | Num 429:    0 | Data: 6.3 MiB [    30s @ 4596 calls/sec ]
+Num Blocks: 147489 | Num Queries: 147553 | Num 429:    0 | Data: 6.5 MiB [    31s @ 4605 calls/sec ]
+Num Blocks: 152385 | Num Queries: 152449 | Num 429:    0 | Data: 6.7 MiB [    32s @ 4614 calls/sec ]
+Num Blocks: 157255 | Num Queries: 157319 | Num 429:    0 | Data: 6.9 MiB [    33s @ 4622 calls/sec ]
+Num Blocks: 162068 | Num Queries: 162132 | Num 429:    0 | Data: 7.1 MiB [    34s @ 4627 calls/sec ]
+Num Blocks: 166821 | Num Queries: 166885 | Num 429:    0 | Data: 7.3 MiB [    35s @ 4631 calls/sec ]
+Num Blocks: 171645 | Num Queries: 171709 | Num 429:    0 | Data: 7.5 MiB [    36s @ 4636 calls/sec ]
+Num Blocks: 176511 | Num Queries: 176575 | Num 429:    0 | Data: 7.8 MiB [    37s @ 4642 calls/sec ]
+Num Blocks: 181355 | Num Queries: 181419 | Num 429:    0 | Data: 8.0 MiB [    38s @ 4648 calls/sec ]
+Num Blocks: 186096 | Num Queries: 186160 | Num 429:    0 | Data: 8.2 MiB [    39s @ 4650 calls/sec ]
+Num Blocks: 190965 | Num Queries: 191029 | Num 429:    0 | Data: 8.4 MiB [    40s @ 4656 calls/sec ]
+Num Blocks: 195800 | Num Queries: 195864 | Num 429:    0 | Data: 8.6 MiB [    41s @ 4660 calls/sec ]
+Num Blocks: 200604 | Num Queries: 200668 | Num 429:    0 | Data: 8.8 MiB [    42s @ 4663 calls/sec ]
+Num Blocks: 205453 | Num Queries: 205517 | Num 429:    0 | Data: 9.0 MiB [    43s @ 4668 calls/sec ]
+Num Blocks: 210329 | Num Queries: 210393 | Num 429:    0 | Data: 9.2 MiB [    44s @ 4672 calls/sec ]
+Num Blocks: 215158 | Num Queries: 215222 | Num 429:    0 | Data: 9.4 MiB [    45s @ 4676 calls/sec ]
+Num Blocks: 219957 | Num Queries: 220021 | Num 429:    0 | Data: 9.7 MiB [    46s @ 4679 calls/sec ]
+Num Blocks: 224747 | Num Queries: 224811 | Num 429:    0 | Data: 9.9 MiB [    47s @ 4681 calls/sec ]
+Num Blocks: 229546 | Num Queries: 229610 | Num 429:    0 | Data: 10 MiB [    48s @ 4683 calls/sec ]
+Num Blocks: 234323 | Num Queries: 234387 | Num 429:    0 | Data: 10 MiB [    49s @ 4685 calls/sec ]
+Num Blocks: 239092 | Num Queries: 239156 | Num 429:    0 | Data: 10 MiB [    50s @ 4687 calls/sec ]
+Num Blocks: 243903 | Num Queries: 243967 | Num 429:    0 | Data: 11 MiB [    51s @ 4689 calls/sec ]
+Num Blocks: 248772 | Num Queries: 248836 | Num 429:    0 | Data: 11 MiB [    52s @ 4693 calls/sec ]
+Num Blocks: 253581 | Num Queries: 253645 | Num 429:    0 | Data: 11 MiB [    53s @ 4695 calls/sec ]
+Num Blocks: 258427 | Num Queries: 258491 | Num 429:    0 | Data: 11 MiB [    54s @ 4698 calls/sec ]
+Num Blocks: 263190 | Num Queries: 263254 | Num 429:    0 | Data: 12 MiB [    55s @ 4699 calls/sec ]
+Num Blocks: 268021 | Num Queries: 268085 | Num 429:    0 | Data: 12 MiB [    56s @ 4701 calls/sec ]
+Num Blocks: 272825 | Num Queries: 272889 | Num 429:    0 | Data: 12 MiB [    57s @ 4703 calls/sec ]
+Num Blocks: 277660 | Num Queries: 277724 | Num 429:    0 | Data: 12 MiB [    58s @ 4705 calls/sec ]
+Num Blocks: 282452 | Num Queries: 282516 | Num 429:    0 | Data: 12 MiB [    59s @ 4707 calls/sec ]
+Num Blocks: 287292 | Num Queries: 287355 | Num 429:    0 | Data: 13 MiB [   1m0s @ 4709 calls/sec ]
+-----------------------
+Latency in milliseconds
+ -- Histogram: 
+Min value: 10 
+Max value: 260 
+Count: 287355 
+50p: 16.00 
+75p: 16.00 
+90p: 16.00 
+[8, 16) 274168 95.41% 95.41%
+[16, 32) 12886 4.48% 99.90%
+[32, 48) 144 0.05% 99.95%
+[48, 64) 82 0.03% 99.97%
+[64, 80) 20 0.01% 99.98%
+[80, 96) 9 0.00% 99.98%
+[96, 112) 6 0.00% 99.99%
+[112, 128) 15 0.01% 99.99%
+[128, 144) 22 0.01% 100.00%
+[144, 160) 2 0.00% 100.00%
+[256, 272) 1 0.00% 100.00%
+ --
+
+-----------------------
+Resp size in bytes
+ -- Histogram: 
+Min value: 45 
+Max value: 47 
+Count: 287355 
+50p: 64.00 
+75p: 64.00 
+90p: 64.00 
+[32, 64) 287355 100.00% 100.00%
+ --
+
+Num Blocks: 287355 | Num Queries: 287355 | Num 429:    0 | Data: 13 MiB [   1m1s @ 4633 calls/sec ]
+Num Blocks: 287355 | Num Queries: 287355 | Num 429:    0 | Data: 13 MiB [   1m2s @ 4558 calls/sec ]
+Method: eth_getBlockTransactionCountByHash | DONE
+Writing samples to file: ./sample-eth_getBlockTransactionCountByHash-475686927
+Connection established with response [0, 26ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 0
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 1
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 2
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 3
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 4
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 5
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 6
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 7
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 8
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 9
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 10
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 11
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 12
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 13
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 14
+Connection established with response [0, 18ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 15
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 16
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 17
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 18
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 19
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 20
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 21
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 22
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 23
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 24
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 25
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 26
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 27
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 28
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 29
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 30
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 31
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 32
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 33
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 34
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 35
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 36
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 37
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 38
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 39
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 40
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 41
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 42
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 43
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 44
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 45
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 46
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 47
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 48
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 49
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 50
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 51
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 52
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 53
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 54
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 55
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 56
+Connection established with response [0, 15ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 57
+Connection established with response [0, 29ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 58
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 59
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 60
+Connection established with response [0, 16ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 12ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 61
+Connection established with response [0, 17ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 13ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 62
+Connection established with response [0, 14ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [1, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Connection established with response [2, 11ms]: {"jsonrpc":"2.0","id":1,"result":"0x1"}
+Warmed up client: 63
+Method: eth_getBlockTransactionCountByNumber | START
+Time now: 2022-12-07 01:26:38 +0000 UTC . Ending at 2022-12-07 01:27:38 +0000 UTC
+start Idx: 314406
+Num Blocks:  4648 | Num Queries: 4712 | Num 429:    0 | Data: 209 KiB [     1s @ 0 calls/sec ]
+Num Blocks:  9476 | Num Queries: 9540 | Num 429:    0 | Data: 426 KiB [     2s @ 2413 calls/sec ]
+Num Blocks: 14021 | Num Queries: 14085 | Num 429:    0 | Data: 631 KiB [     3s @ 3123 calls/sec ]
+Num Blocks: 18541 | Num Queries: 18605 | Num 429:    0 | Data: 834 KiB [     4s @ 3473 calls/sec ]
+Num Blocks: 22981 | Num Queries: 23045 | Num 429:    0 | Data: 1.0 MiB [     5s @ 3666 calls/sec ]
+Num Blocks: 27341 | Num Queries: 27405 | Num 429:    0 | Data: 1.2 MiB [     6s @ 3782 calls/sec ]
+Num Blocks: 31729 | Num Queries: 31793 | Num 429:    0 | Data: 1.4 MiB [     7s @ 3868 calls/sec ]
+Num Blocks: 36212 | Num Queries: 36276 | Num 429:    0 | Data: 1.6 MiB [     8s @ 3945 calls/sec ]
+Num Blocks: 40626 | Num Queries: 40690 | Num 429:    0 | Data: 1.8 MiB [     9s @ 3997 calls/sec ]
+Num Blocks: 44959 | Num Queries: 45023 | Num 429:    0 | Data: 2.0 MiB [    10s @ 4031 calls/sec ]
+Num Blocks: 49131 | Num Queries: 49195 | Num 429:    0 | Data: 2.2 MiB [    11s @ 4043 calls/sec ]
+Num Blocks: 53811 | Num Queries: 53875 | Num 429:    0 | Data: 2.4 MiB [    12s @ 4096 calls/sec ]
+Num Blocks: 58250 | Num Queries: 58314 | Num 429:    0 | Data: 2.6 MiB [    13s @ 4123 calls/sec ]
+Num Blocks: 62769 | Num Queries: 62833 | Num 429:    0 | Data: 2.8 MiB [    14s @ 4151 calls/sec ]
+Num Blocks: 67282 | Num Queries: 67346 | Num 429:    0 | Data: 3.0 MiB [    15s @ 4175 calls/sec ]
+Num Blocks: 71761 | Num Queries: 71825 | Num 429:    0 | Data: 3.2 MiB [    16s @ 4194 calls/sec ]
+Num Blocks: 76363 | Num Queries: 76427 | Num 429:    0 | Data: 3.4 MiB [    17s @ 4218 calls/sec ]
+Num Blocks: 81076 | Num Queries: 81140 | Num 429:    0 | Data: 3.6 MiB [    18s @ 4245 calls/sec ]
+Num Blocks: 85636 | Num Queries: 85700 | Num 429:    0 | Data: 3.8 MiB [    19s @ 4262 calls/sec ]
+Num Blocks: 90404 | Num Queries: 90468 | Num 429:    0 | Data: 4.0 MiB [    20s @ 4287 calls/sec ]
+Num Blocks: 95246 | Num Queries: 95310 | Num 429:    0 | Data: 4.2 MiB [    21s @ 4314 calls/sec ]
+Num Blocks: 100114 | Num Queries: 100178 | Num 429:    0 | Data: 4.4 MiB [    22s @ 4339 calls/sec ]
+Num Blocks: 104926 | Num Queries: 104990 | Num 429:    0 | Data: 4.6 MiB [    23s @ 4359 calls/sec ]
+Num Blocks: 109735 | Num Queries: 109799 | Num 429:    0 | Data: 4.8 MiB [    24s @ 4378 calls/sec ]
+Num Blocks: 114410 | Num Queries: 114474 | Num 429:    0 | Data: 5.0 MiB [    25s @ 4390 calls/sec ]
+Num Blocks: 119006 | Num Queries: 119070 | Num 429:    0 | Data: 5.2 MiB [    26s @ 4398 calls/sec ]
+Num Blocks: 123610 | Num Queries: 123674 | Num 429:    0 | Data: 5.4 MiB [    27s @ 4405 calls/sec ]
+Num Blocks: 127964 | Num Queries: 128028 | Num 429:    0 | Data: 5.6 MiB [    28s @ 4404 calls/sec ]
+Num Blocks: 132553 | Num Queries: 132617 | Num 429:    0 | Data: 5.8 MiB [    29s @ 4410 calls/sec ]
+Num Blocks: 137131 | Num Queries: 137195 | Num 429:    0 | Data: 6.0 MiB [    30s @ 4416 calls/sec ]
+Num Blocks: 141776 | Num Queries: 141840 | Num 429:    0 | Data: 6.2 MiB [    31s @ 4423 calls/sec ]
+Num Blocks: 146451 | Num Queries: 146515 | Num 429:    0 | Data: 6.4 MiB [    32s @ 4431 calls/sec ]
+Num Blocks: 151127 | Num Queries: 151191 | Num 429:    0 | Data: 6.6 MiB [    33s @ 4438 calls/sec ]
+Num Blocks: 155848 | Num Queries: 155912 | Num 429:    0 | Data: 6.8 MiB [    34s @ 4447 calls/sec ]
+Num Blocks: 160489 | Num Queries: 160553 | Num 429:    0 | Data: 7.0 MiB [    35s @ 4452 calls/sec ]
+Num Blocks: 165107 | Num Queries: 165171 | Num 429:    0 | Data: 7.3 MiB [    36s @ 4457 calls/sec ]
+Num Blocks: 169721 | Num Queries: 169785 | Num 429:    0 | Data: 7.5 MiB [    37s @ 4461 calls/sec ]
+Num Blocks: 174391 | Num Queries: 174455 | Num 429:    0 | Data: 7.7 MiB [    38s @ 4466 calls/sec ]
+Num Blocks: 179147 | Num Queries: 179211 | Num 429:    0 | Data: 7.9 MiB [    39s @ 4474 calls/sec ]
+Num Blocks: 183785 | Num Queries: 183849 | Num 429:    0 | Data: 8.1 MiB [    40s @ 4478 calls/sec ]
+Num Blocks: 188546 | Num Queries: 188610 | Num 429:    0 | Data: 8.3 MiB [    41s @ 4485 calls/sec ]
+Num Blocks: 193424 | Num Queries: 193488 | Num 429:    0 | Data: 8.5 MiB [    42s @ 4494 calls/sec ]
+Num Blocks: 198303 | Num Queries: 198367 | Num 429:    0 | Data: 8.7 MiB [    43s @ 4503 calls/sec ]
+Num Blocks: 203133 | Num Queries: 203197 | Num 429:    0 | Data: 8.9 MiB [    44s @ 4511 calls/sec ]
+Num Blocks: 207974 | Num Queries: 208038 | Num 429:    0 | Data: 9.1 MiB [    45s @ 4518 calls/sec ]
+Num Blocks: 212713 | Num Queries: 212777 | Num 429:    0 | Data: 9.3 MiB [    46s @ 4523 calls/sec ]
+Num Blocks: 217334 | Num Queries: 217398 | Num 429:    0 | Data: 9.5 MiB [    47s @ 4525 calls/sec ]
+Num Blocks: 221992 | Num Queries: 222044 | Num 429:    0 | Data: 9.7 MiB [    48s @ 4527 calls/sec ]
+Num Blocks: 226629 | Num Queries: 226693 | Num 429:    0 | Data: 10 MiB [    49s @ 4530 calls/sec ]
+Num Blocks: 231324 | Num Queries: 231388 | Num 429:    0 | Data: 10 MiB [    50s @ 4533 calls/sec ]
+Num Blocks: 236016 | Num Queries: 236080 | Num 429:    0 | Data: 10 MiB [    51s @ 4536 calls/sec ]
+Num Blocks: 240707 | Num Queries: 240771 | Num 429:    0 | Data: 11 MiB [    52s @ 4539 calls/sec ]
+Num Blocks: 245455 | Num Queries: 245519 | Num 429:    0 | Data: 11 MiB [    53s @ 4543 calls/sec ]
+Num Blocks: 250083 | Num Queries: 250147 | Num 429:    0 | Data: 11 MiB [    54s @ 4545 calls/sec ]
+Num Blocks: 254786 | Num Queries: 254850 | Num 429:    0 | Data: 11 MiB [    55s @ 4547 calls/sec ]
+Num Blocks: 259470 | Num Queries: 259534 | Num 429:    0 | Data: 11 MiB [    56s @ 4550 calls/sec ]
+Num Blocks: 264155 | Num Queries: 264219 | Num 429:    0 | Data: 12 MiB [    57s @ 4552 calls/sec ]
+Num Blocks: 268410 | Num Queries: 268474 | Num 429:    0 | Data: 12 MiB [    58s @ 4547 calls/sec ]
+Num Blocks: 273089 | Num Queries: 273153 | Num 429:    0 | Data: 12 MiB [    59s @ 4549 calls/sec ]
+Num Blocks: 277858 | Num Queries: 277921 | Num 429:    0 | Data: 12 MiB [   1m0s @ 4553 calls/sec ]
+-----------------------
+Latency in milliseconds
+ -- Histogram: 
+Min value: 10 
+Max value: 79 
+Count: 277921 
+50p: 16.00 
+75p: 16.00 
+90p: 16.00 
+[8, 16) 250852 90.26% 90.26%
+[16, 32) 26622 9.58% 99.84%
+[32, 48) 321 0.12% 99.95%
+[48, 64) 107 0.04% 99.99%
+[64, 80) 19 0.01% 100.00%
+ --
+
+-----------------------
+Resp size in bytes
+ -- Histogram: 
+Min value: 45 
+Max value: 47 
+Count: 277921 
+50p: 64.00 
+75p: 64.00 
+90p: 64.00 
+[32, 64) 277921 100.00% 100.00%
+ --
+
+Num Blocks: 277921 | Num Queries: 277921 | Num 429:    0 | Data: 12 MiB [   1m1s @ 4479 calls/sec ]
+Num Blocks: 277921 | Num Queries: 277921 | Num 429:    0 | Data: 12 MiB [   1m2s @ 4407 calls/sec ]
+Method: eth_getBlockTransactionCountByNumber | DONE
+Writing samples to file: ./sample-eth_getBlockTransactionCountByNumber-3802983156
