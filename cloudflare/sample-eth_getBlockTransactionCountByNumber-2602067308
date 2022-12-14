@@ -1,0 +1,5 @@
+{"url": "https://cfeth.0xfast.com/v1/mainnet", "method": "eth_getBlockTransactionCountByNumber"}
+{"jsonrpc":"2.0","result":"0x5d","id":1}
+{"jsonrpc":"2.0","result":"0xbd","id":1}
+{"jsonrpc":"2.0","result":"0xa9","id":1}
+{"jsonrpc":"2.0","result":"0x75","id":1}

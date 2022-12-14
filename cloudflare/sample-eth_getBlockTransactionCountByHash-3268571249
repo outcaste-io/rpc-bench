@@ -1,0 +1,9 @@
+{"url": "https://cfeth.0xfast.com/v1/mainnet", "method": "eth_getBlockTransactionCountByHash"}
+{"jsonrpc":"2.0","result":"0x55","id":1}
+{"jsonrpc":"2.0","result":"0x24","id":1}
+{"jsonrpc":"2.0","result":"0x2c","id":1}
+{"jsonrpc":"2.0","result":"0x1bc","id":1}
+{"jsonrpc":"2.0","result":"0x4f","id":1}
+{"jsonrpc":"2.0","result":"0x158","id":1}
+{"jsonrpc":"2.0","result":"0x66","id":1}
+{"jsonrpc":"2.0","result":"0x3f","id":1}
