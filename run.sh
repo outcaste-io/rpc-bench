@@ -7,7 +7,7 @@ if [ -z "$URL" ]; then echo "Please export URL"; exit; fi
 
 dur=60s
 sample=100
-j=8
+j=64
 
 ./rpc-bench -j=$j --rpc=$URL --secret=$SECRET --method=eth_getBlockByNumber --dur=$dur --sample=$sample
 ./rpc-bench -j=$j --rpc=$URL --secret=$SECRET --method=eth_getBlockByHash --dur=$dur --sample=$sample
