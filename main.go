@@ -398,6 +398,7 @@ func warmUp(client *http.Client) {
 		if len(*secret) > 0 {
 			req.Header.Add("Secret-Header", *secret)
 		}
+		req.Header.Add("Content-Type", "application/json")
 		resp, err := client.Do(req)
 		x.Check(err)
 		data, err := ioutil.ReadAll(resp.Body)
